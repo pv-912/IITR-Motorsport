@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="assets/owlcarousel/owl.theme.css">
     <link rel="stylesheet" href="css/animate.css">
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
 </head>
 
