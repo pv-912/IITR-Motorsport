@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="css/animate.css">
 	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+	<link href="css/style2.css" rel="stylesheet">
 	<link href="css/style-responsive.css" rel="stylesheet" />
 	<!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <script src="js/respond.min.js"></script> <![endif]-->
 	
@@ -32,7 +32,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-sm-4">
-					<h1> Our Beloved Sponsors</h1>
+					<h1> Our Sponsors</h1>
 				</div>
 				<div class="col-lg-8 col-sm-8">
 					<ol class="breadcrumb pull-right">
@@ -52,7 +52,7 @@
         color:#fff;
         padding: 5px 25px;
         border-radius: 5px;
-        background-color: #b7695c;
+        background-color: #2c3e50;
     }
     .old-tab{
         font-size: 1.1em;
@@ -80,7 +80,7 @@
 		var b= document.getElementById("former");
 		a.style.backgroundColor="#fff";
 		a.style.color="#666";
-		b.style.backgroundColor="#b7695c";
+		b.style.backgroundColor="#2c3e50";
 		b.style.color="#fff";
 	}
 	function focus2(){
@@ -88,7 +88,7 @@
 		var a= document.getElementById("former");
 		a.style.backgroundColor="#fff";
 		a.style.color="#666";
-		b.style.backgroundColor="#b7695c";
+		b.style.backgroundColor="#2c3e50";
 		b.style.color="#fff";
 	}
 </script>
@@ -114,21 +114,21 @@
 					
 								<div class="item">
 									<a href="http://www.goodlucksteel.com/" target="_blank">
-										<img src="img/sponsors/gdl.jpg" alt="" style="margin-top: 40%;margin-left:16%;margin-bottom: 15%;height: 10em;width: 20em;">
+										<img src="img/sponsors/gdl.jpg" alt="" style="margin-top: 40%;margin-left:36%;margin-bottom: 15%;height: 10em;width: 20em;">
 									</a>
 								</div>
 								
 								<div class="item">
 									<a href="http://www.solidworks.in/" target="_blank">
-										<img src="img/sponsors/sw.png" alt="" style="margin-top: 34%;margin-left: 25%;margin-bottom: 15%;height: 10em;width: 20em;">
+										<img src="img/sponsors/sw.png" alt="" style="margin-top: 34%;margin-left: 75%;margin-bottom: 15%;height: 10em;width: 20em;">
 									</a>
 								</div>
 								
-								<div class="item">
+								<!-- <div class="item">
 									<a href="http://www.centuryply.com/" target="_blank">
 										<img src="img/sponsors/cen.gif" alt="" style="margin-top: 35%;margin-left: 25%;">
 									</a>
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
@@ -151,12 +151,12 @@
 										<img src="img/sponsors/mrf.png" alt="" style="margin-top: 45%; padding-left: 10%;margin-bottom: 15%;height: 6em;width: 20em;">
 									</a>
 								</div>
-					
 								<div class="item">
-									<a href="http://www.goodlucksteel.com/" target="_blank">
-										<img src="img/sponsors/gdl.jpg" alt="" style="margin-top: 40%;margin-left:16%;margin-bottom: 15%;height: 10em;width: 20em;">
+									<a href="http://en.winston-battery.com/" target="_blank">
+										<img src="img/sponsors/wb.png" alt="" style="margin-top: 40%;margin-left:10%;margin-bottom: 15%;height: 8em;width: 20em;">
 									</a>
 								</div>
+								
 								
 								<div class="item">
 									<a href="	http://www.iotrek.in/" target="_blank">
@@ -180,31 +180,31 @@
 						<div class="col-lg-12 recent">
 							<div id="owl-demo3" class="owl-carousel owl-theme wow fadeIn">
 								
-								<div class="item">
-									<a href="http://www.solidworks.in/" target="_blank">
-										<img src="img/sponsors/sw.png" alt="" style="margin-top: 24%;margin-left: 10%;margin-bottom: 15%;height: 10em;width: 20em;">
-									</a>
-								</div>
-
-								<div class="item">
-									<a href="http://en.winston-battery.com/" target="_blank">
-										<img src="img/sponsors/wb.png" alt="" style="margin-top: 35%;margin-bottom: 15%;height: 8em;width: 20em;">
-									</a>
-								</div>
 								
-
-								<div class="item">
-									<a href="#" target="_blank">
-										<img src="img/sponsors/blc.png" alt="" style="margin-left: 2%;margin-top: 15%;margin-bottom: 15%;">
-									</a>
-								</div>
-
-
 								<div class="item">
 									<a href="https://www.motul.com/in/en" target="_blank">
 										<img src="img/sponsors/motul.png" alt="" style="margin-top: 30%;margin-bottom: 35%;margin-left: 8%;margin-right: 25%;">
 									</a>
 								</div>
+								<div class="item">
+									<a href="http://www.goodlucksteel.com/" target="_blank">
+										<img src="img/sponsors/gdl.jpg" alt="" style="margin-top: 20%;margin-left:2%;margin-bottom: 15%;height: 10em;width: 20em;">
+									</a>
+								</div>
+								
+							
+
+								<div class="item">
+									<a href="#" target="_blank">
+										<img src="img/sponsors/blc.png" alt="" style="margin-left: 20%;margin-top: 15%;margin-bottom: 15%;">
+									</a>
+								</div>
+								<div class="item">
+									<a href="http://www.solidworks.in/" target="_blank">
+										<img src="img/sponsors/sw.png" alt="" style="margin-top: 14%;margin-left: 10%;margin-bottom: 15%;height: 10em;width: 20em;">
+									</a>
+								</div>
+
 								
 							</div>
 						</div>

@@ -22,7 +22,7 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/component.css">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/parallax-slider/parallax-slider.css" />
     <script type="text/javascript" src="js/parallax-slider/modernizr.custom.28468.js"></script>

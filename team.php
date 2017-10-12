@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="css/mixitup.css">
     <link rel="stylesheet" type="text/css" href="css/component.css">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet">
     <link rel="stylesheet" href="css/magnific-popup.css"> </head>
 
