@@ -94,26 +94,31 @@
                             <li class=""> <a data-toggle="tab" href="#sponboard"> Sponsors Board </a></li>
                         </ul>
                     </header>
-                    <div class="panel-body">
+                   <div class="panel-body">
                         <div class="tab-content tasi-tab">
                             <div id="updates" class="tab-pane fade in active">
                                 <article class="media">
                                     <div class="media-body b-btm">
                                      <!-- <a href="#" class=" p-head">FS Germany 2018</a> -->
-                                    <ol type="number"> <li>Passive Battery Managment system(BMS) design is completed.PCB is ready to sent out for Fabrication.
-                                    <li> A 24V BLDC Motorcontroller had been designed and currently in testing phase.
-                                    <li>Motor for the new power train has been finalized.
-                                    <li>Design of planetary gearbox for two independent motor is done, optimization is under progress.
-                                    <li>Our aerodynamics team has successfully designed the wings, final optimization is in progress.
-                                    <li>We are testing our last car "Saber" and collecting data using DAQ system. which is being analysed and used for the improvements of our next Car.
+                                    <ul type="none"> <li>Passive Battery Managment System(BMS) design has been completed. PCB is ready to be sent for Fabrication.
+                                    <li>A 24V BLDC Motorcontroller has been designed and is currently in the testing phase.
+                                    <li>BLDC Motor for the new power train has been finalized.
+                                    <li>Design of planetary gearbox for two independent motors has been completed. Optimization is under progress.
+                                    <li>The aerodynamics team has designed the wings successfully. Final optimization is in progress.
+                                    <li>We are testing our last project "Saber" and collecting data using DAQ system which is being analysed for the concept and design of our next project.
                                     </ul>
                                     </div>
                                 </article>
                             </div>
                             <div id="event" class="tab-pane fade">
                                 <article class="media">
+                                    <div class="media-body b-btm"> <a href="https://www.formulastudent.de/" target="_blank" class="cmt-head"> FS Germany 2018 </a>
+                                            <br><i class="fa fa-time"> </i>
+                                    As our next venture, we are planning to participate in <a href="https://www.formulastudent.de/" target="_blank" class="cmt-head">Formula Student Germany</a>, which is going to be held in the month of August, 2018. The team is working with its full pace with the introduction of various new concepts in design.
+                                        <p><i class="fa fa-time"> </i></p>
+                                    </div>
                                     <a class="pull-left thumb p-thumb"></a>
-                                    <div class="media-body b-btm"> <a href="https://thomso.in" target="_blank" class="cmt-head"> Brand promotion of the sponsors in Thomso 17 </a>
+                                    <div class="media-body b-btm"> <a href="http://thomso.in" target="_blank" class="cmt-head"> Brand promotion of the sponsors in Thomso 17 </a>
                                         <p><i class="fa fa-time"> </i></p>
                                     </div>
                                     <div class="media-body b-btm"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYwW-Gs1N1b4SGbLRciP6_wR_GGDrqg16QMJysiTJ0Es5QFg/viewform" target="_blank" class="cmt-head"> Register for Recruitment 2017 </a>
