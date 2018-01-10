@@ -68,7 +68,7 @@
                     </div>
                     <div class="col-md-12">
                         <div class="text-center feature-head wow fadeInDown">
-                            <p>IIT Roorkee Motorsports is the Formula Student team of IIT Roorkee which participates in Formula SAE competitions, the largest Engineering Competition in the world, by designing, developing and fabricating an open wheel Formula style Race Car. Our debut competition was the FSAE –Australasia in 2011 and since then the team has improved considerably to being the 1st Ranked Electric team in India as per the FSAE Electric rankings.</p>
+                            <p></p>
                         </div>
                     </div>
                     <div class="col-md-12 text-center wow fadeInDown">
