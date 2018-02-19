@@ -1,0 +1,104 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 0.3px;
+	color: #333333;
+    align-items:center;
+  justify-content:center;
+	}
+
+::-webkit-scrollbar {
+    width: 0px ; /*  remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible*/ 
+    height:3px;
+}
+
+::-webkit-scrollbar-thumb {
+	width: 0px ;
+	border-radius:10px;
+	background-color: #53a374;
+	height:2px;
+}
+
+::-webkit-scrollbar-button  {
+    height:0px;
+}
+
+
+::-webkit-scrollbar-corner  {
+    display:none;    
+}
+a {
+    outline: none !important;
+    text-decoration: none !important;  
+}
+a:focus{
+	border: none;
+}
+
+/*.mainGIF{
+	height:100vh;
+	width: 100vw;
+}*/
+@font-face {
+    font-family: 'leagueSpartan'; /*a name to be used later*/
+    src: url('src/fonts/league-spartan-master/_webfonts/leaguespartan-bold.ttf'); /*URL to font*/
+}
+.navbar-default{
+	background-color: #fff ;
+	background-image: none ;
+	box-shadow: none ;
+	border-color: #fff ;
+	padding-top: 5px
+}
+
+.logoHeader{
+	width: 13vw;
+	height: auto;
+	margin-left: 28%;
+}
+
+.headerLink {
+	padding-right: 2vw;
+	margin-top: 20px
+}
+.headerLink li a{
+	font-weight: 700;
+	color: #000 !important;
+	font-size: 1.32vw;
+	padding-top: 15px 2.2vw;
+	font-weight: 900;
+	font-family: 'Lato' , sans-serif;
+}
+
+.headerLink li a:hover{
+	color: #ddd !important;
+	background-color: #000 !important;
+	border-radius: 5px
+}
+.headerLink li a:hover{
+	color: #fff !important;
+	background-color: #888 !important;
+	border-radius: 5px
+}
+.navbar-default .navbar-nav>.active>a{
+	background-image: none !important;
+	background-color: #000;
+	color: #fff !important;
+	border-radius: 5px;
+}
+.aboutUsHeading{
+	color:#000;
+	font-size: 6.5vw;
+	padding-right: 10vw;
+	margin-top: 5vh;
+	font-weight: 900;
+	font-family: 'Lato', snas-serif;
+}
+.aboutUsTextMain{
+	text-align: center;
+}
