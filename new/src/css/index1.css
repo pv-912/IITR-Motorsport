@@ -73,6 +73,9 @@ a:focus{
 	padding-top: 15px 2.2vw;
 	font-weight: 900;
 	font-family: 'Lato' , sans-serif;
+	-webkit-transition: .4s; /* Safari */
+    transition: .4s;
+}
 }
 
 .headerLink li a:hover{
@@ -83,7 +86,8 @@ a:focus{
 .headerLink li a:hover{
 	color: #fff !important;
 	background-color: #888 !important;
-	border-radius: 5px
+	border-radius: 5px;
+
 }
 .navbar-default .navbar-nav>.active>a{
 	background-image: none !important;
@@ -100,5 +104,24 @@ a:focus{
 	font-family: 'Lato', snas-serif;
 }
 .aboutUsTextMain{
+    color: #000;
+    font-size: 1.6vw;
+    padding-left: 10vw;
+    padding-right: 9vw;
+    padding-top: 5vh;
+    word-spacing:.1vw;
+    line-height:28px;
+    font-weight: 400
+}
+.readMoreMainButton{
+	margin-top: 15vh;
 	text-align: center;
+}
+.readMoreMainButton a{
+    background-color: #ff3333;
+    color: #fff;
+    padding: 17px 28px;
+    border-radius: 5px;
+    font-size: 1.3vw;
+    font-weight: 700;
 }
