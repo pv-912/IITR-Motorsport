@@ -140,11 +140,29 @@ a:focus{
 }
 .rightBorder{
 	border-right: 1px solid #888;
+	
+}
+.eventPad{
+	padding-top: 4vh;
+	padding-bottom: 7vh
 }
 .eventDiv{
 	text-align: center;
-	margin-top: 10vh
+	/*margin-top: 1vh;*/
+	padding-top: 10vh
 }
 .eventHeading{
-	
+	color: #000;
+    font-size: 3.5vw;
+    font-weight: 900;
+}
+.eventHeading2{
+	margin-bottom: -.5vh;
+	margin-top: 7vh
+}
+.eventContent{
+	    font-size: 1.6vw;
+    line-height: 28px;
+    padding: 0 7.25vw;
+    color: #000;
 }
