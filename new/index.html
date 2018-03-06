@@ -21,9 +21,9 @@
 	    <link href="src/css/bootstrap-theme.min.css" rel="stylesheet">
 	    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
 	    <script src="src/js/bootstrap.min.js"></script>
-	    <link href="src/css/index3.css" rel="stylesheet">
+	    <link href="src/css/index6.css" rel="stylesheet">
 	    <!-- <link href="src/css/indexTab.css" rel="stylesheet"> -->
-	    <link href="src/css/indexMob.css" rel="stylesheet">
+	    <link href="src/css/indexMob1.css" rel="stylesheet">
 	</head>
 
 	<script>
@@ -41,7 +41,7 @@
 		            var bottom_of_object = $(this).position().top + $(this).outerHeight();
 		            var bottom_of_window = $(window).scrollTop() + $(window).height();
 		            if( bottom_of_window > bottom_of_object ){
-		                $(this).animate({'opacity':'1'},200);
+		                $(this).animate({'opacity':'1'},1000);
 		            }
 		        }); 
 		    });
@@ -84,24 +84,46 @@
 				<p class="aboutUsTextMain text-justify hideme">IIT Roorkee Motorsports is the Formula Student team of IIT Roorkee which participates in Formula SAE competitions, the largest Engineering Competition in the world, by designing, developing and fabricating an open wheel Formula style Race Car. Our debut competition was the FSAE –Australasia in 2011 and since then the team has improved considerably to being the 1st Ranked Electric team in India as per the FSAE Electric rankings.</p>
 			</div>
 			<div class="row borderLine" >
-				<div class="col-sm-4 col-sm-offset-4 readMoreMainButton navbarAnimate">
+				<div class="col-sm-4 col-sm-offset-4 readMoreMainButton navbarAnimate ">
 					<a> READ MORE</a>
 				</div>
 			</div>
 			<div class="row eventDiv borderLine">
 				<div class="col-sm-6 rightBorder eventPad">
-					<p class="eventHeading">UPCOMING EVENT</p>
-					<p class="eventContent " style="margin-bottom: -.5vh;padding-top: 6vh ">FS Germany 2018 </p>
-					<p class="eventContent">As our next venture, we are planning to participate in Formula Student Germany, which is going to be held in the month of August, 2018. The team is working with its full pace with the introduction of various new concepts in design.</p>
+					<p class="eventHeading navbarAnimate">UPCOMING EVENT</p>
+					<p class="eventContent eventContentHeading navbarAnimate" >FS Germany 2018 </p>
+					<p class="eventContent navbarAnimate text-justify">As our next venture, we are planning to participate in Formula Student Germany, which is going to be held in the month of August, 2018. The team is working with its full pace with the introduction of various new concepts in design.</p>
 
 				</div>
 				<div class="col-sm-6 eventPad ">
-					<p class="eventHeading">TEAM UPDATES</p>
-					<p class="eventContent eventHeading2">Passive Battery Managment System(BMS) design has been completed. PCB is ready to be sent for Fabrication.</p>
+					<p class="eventHeading navbarAnimate">TEAM UPDATES</p>
+					<p class="eventContent eventHeading2 navbarAnimate text-justify">Passive Battery Managment System(BMS) design has been completed. PCB is ready to be sent for Fabrication.</p>
 
 				</div>
 			</div>
 		</div>
-		<div style="height: 30vh"></div>
+
+		<footer class="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-9">
+                        <p class="footerDetail"><i class="fa fa-home footerDetailIcon"></i>MECHANICAL & INDUSTRIAL ENGINEERING DEPARTMENT, IIT ROORKEE</p>
+                        <p class="footerDetail"><i class="fa fa-globe footerDetailIcon1"></i>247667 , UTTRAKHAND, INDIA</p><p class="footerDetail"><i class="fa fa-mobile footerDetailIcon1" style="font-size: 2.2vw"></i>MOBILE : +91-8171360730, +91-7060334417</p>
+                        <p class="footerDetail"><i class="fa fa-envelope footerDetailIcon1"></i>EMAIL : iitrms.iitr@gmail.com</p>
+                        <p class="copyright">Copyright &#169; - 2017 Team IIT Roorkee MotorSports </p>
+					</div>
+					<div class="col-sm-3">
+						 <div class="row">
+						 	<i class="fa fa-facebook fb footerSocialIcon" ></i>
+						 	<i class="fa fa-google-plus google footerSocialIcon"></i>
+						 	<i class="fa fa-linkedin linkedin footerSocialIcon"></i>
+						 	<i class="fa fa-twitter twitter footerSocialIcon"></i>
+						 	<i class="fa fa-instagram footerSocialIcon"></i>
+						 </div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div style="height: 0vh"></div>
 	</body>
 </html>

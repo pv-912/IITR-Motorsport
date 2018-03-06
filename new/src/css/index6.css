@@ -126,6 +126,7 @@ a:focus{
     border-radius: 5px;
     font-size: 1.3vw;
     font-weight: 700;
+    cursor: pointer;
 }
 .hideme{
 	opacity: 0;
@@ -165,4 +166,38 @@ a:focus{
     line-height: 28px;
     padding: 0 7.25vw;
     color: #000;
+}
+.eventContentHeading{
+	margin-bottom: 1.5vh;
+	padding-top: 6vh 
+}
+.footer{
+	background-color: #333;
+	height: 40vh
+}
+.footerDetail{
+	color: #fff;
+    font-weight: 700;
+    padding-left: 8vw;
+    font-size: 1.3vw;
+}
+.footerDetailIcon{
+	padding-right: 1vw;
+	padding-top: 5vh
+}
+.footerDetailIcon1{
+	padding-right: 1vw;
+	margin-top: -.5vh
+}
+.copyright{
+	    color: #fff;
+    padding-left: 10.3vw;
+    font-size: 1.1vw;
+    padding-top: 6vh;
+}
+.footerSocialIcon{
+	    color: #fff;
+    padding: 0 .5vw;
+    font-size: 1.5vw;
+    padding-top: 32vh;
 }
