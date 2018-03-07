@@ -159,7 +159,7 @@
                 <?php include 'includes/signup.php'; ?>
                     <?php include 'includes/footer.php'; ?>
 
-                    <div class="container-fluid sideIcons" style="">
+                <div class="container-fluid sideIcons" style="">
 			        <div class="row">
 			            <div class="col-lg-12 col-xs-12 ">
 			                <ul class="" style="list-style-type: none;font-size: 2em;color:#fff;width: 100px;">
@@ -169,7 +169,6 @@
 			                    <li class="wow flipInY" data-wow-duration="2s" data-wow-delay=".5s"><a href="https://twitter.com/iitrms_iitr"><i class="fa fa-twitter twitter" ></i></a></li>
 			                </ul>
 			            </div>
-			            
 			        </div>
 			    </div>
 			    <style>

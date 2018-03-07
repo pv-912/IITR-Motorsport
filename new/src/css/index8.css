@@ -9,7 +9,7 @@ body, html {
 	color: #333333;
     align-items:center;
   justify-content:center;
-  margin-bottom: 100vh
+  /*margin-bottom: 100vh*/
 	}
 
 ::-webkit-scrollbar {
@@ -129,11 +129,11 @@ a:focus{
     cursor: pointer;
 }
 .hideme{
-	opacity: 0;
+	opacity: 1;
 	padding-top:0vh
 }
 .navbarAnimate{
-	opacity: 0;
+	opacity: 1;
 }
 .borderLine{
 	border-bottom: 1px solid #888;
@@ -173,7 +173,7 @@ a:focus{
 }
 .footer{
 	background-color: #333;
-	height: 40vh
+	/*height: 40vh*/
 }
 .footerDetail{
 	color: #fff;
@@ -197,7 +197,49 @@ a:focus{
 }
 .footerSocialIcon{
 	    color: #fff;
-    padding: 0 .5vw;
+    padding: 2vh .7vw;
     font-size: 1.5vw;
-    padding-top: 32vh;
+    padding-top: 7vh;
 }
+.sideIcons{
+    z-index: 2;
+    position: fixed;
+    top:20em;
+    left:95%;
+}
+@media only screen and (min-width: 720px) {
+    .sideIcons {
+        left:93%;
+    }
+}	
+@media only screen and (max-width: 720px) {
+	.sideIcons {
+        left:177%;
+        opacity: 0
+    }
+}
+.fb{
+    background-color: #3b579d;
+    min-width: 40px;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0
+}
+.google{
+    background-color: #dd4f43;
+    min-width: 40px;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0
+}
+.linkedin{
+    background-color: #007bb6;
+    min-width: 40px;
+    color: #fff;
+    text-align:
+    center;padding: 8px 0
+}
+.twitter{
+    background-color: #1da1f2;min-width: 40px;color: #fff;text-align: center;padding: 8px 0
+}
+

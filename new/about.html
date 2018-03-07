@@ -28,28 +28,26 @@
 
 	<script>
 		
-		$(document).ready(function() {
-		    $(window).scroll( function(){
-		        $('.hideme').each( function(i){
-		            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-		            var bottom_of_window = $(window).scrollTop() + $(window).height();
-		            if( bottom_of_window > bottom_of_object ){
-		                $(this).animate({'opacity':'1','padding-top':'2.5vh'},700);
-		            }
-		        }); 
-		        $('.navbarAnimate').each( function(i){
-		            var bottom_of_object = $(this).position().top + $(this).outerHeight();
-		            var bottom_of_window = $(window).scrollTop() + $(window).height();
-		            if( bottom_of_window > bottom_of_object ){
-		                $(this).animate({'opacity':'1'},1000);
-		            }
-		        }); 
-		    });
-		});
+		// $(document).ready(function() {
+		//     $(window).scroll( function(){
+		//         $('.hideme').each( function(i){
+		//             var bottom_of_object = $(this).position().top + $(this).outerHeight();
+		//             var bottom_of_window = $(window).scrollTop() + $(window).height();
+		//             if( bottom_of_window > bottom_of_object ){
+		//                 $(this).animate({'opacity':'1','padding-top':'2.5vh'},700);
+		//             }
+		//         }); 
+		//         $('.navbarAnimate').each( function(i){
+		//             var bottom_of_object = $(this).position().top + $(this).outerHeight();
+		//             var bottom_of_window = $(window).scrollTop() + $(window).height();
+		//             if( bottom_of_window > bottom_of_object ){
+		//                 $(this).animate({'opacity':'1'},1000);
+		//             }
+		//         }); 
+		//     });
+		// });
 	</script>
-		<div class="container-fluid mainGIF">
-			
-		</div>
+		
 		
 		<div class="container-fluid sideIcons" style="">
 			        <div class="row">
@@ -77,8 +75,8 @@
 		    </div>
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		        <ul class="nav navbar-nav navbar-right headerLink">
-			        <li class="active"><a href="#">HOME</a></li>
-			        <li><a href="#">ABOUT US</a></li>
+			        <li><a href="#">HOME</a></li>
+			        <li class="active"><a href="#">ABOUT US</a></li>
 			        <li><a href="#">OUR PROJECT</a></li>
 			        <li><a href="#">TEAM</a></li>
 			        <li><a href="#">GALLERY</a></li>
@@ -90,32 +88,7 @@
 		</nav>
 		
 		<div class="container-fluid" >
-			<div class="row mar-b-50">			
-				<p class="aboutUsHeading navbar-right hideme">ABOUT US</p><br>
-			</div>
-			<div class="row ">
-				<p class="aboutUsTextMain text-justify hideme">IIT Roorkee Motorsports is the Formula Student team of IIT Roorkee which participates in Formula SAE competitions, the largest Engineering Competition in the world, by designing, developing and fabricating an open wheel Formula style Race Car. Our debut competition was the FSAE –Australasia in 2011 and since then the team has improved considerably to being the 1st Ranked Electric team in India as per the FSAE Electric rankings.</p>
-			</div>
-			<div class="row borderLine" >
-				<div class="col-sm-4 col-sm-offset-4 readMoreMainButton navbarAnimate ">
-					<a> READ MORE</a>
-				</div>
-			</div>
-			<div class="row eventDiv borderLine">
-				<div class="col-sm-6 rightBorder eventPad">
-					<p class="eventHeading navbarAnimate">UPCOMING EVENT</p>
-					<p class="eventContent eventContentHeading navbarAnimate" >FS Germany 2018 </p>
-					<p class="eventContent navbarAnimate text-justify">As our next venture, we are planning to participate in Formula Student Germany, which is going to be held in the month of August, 2018. The team is working with its full pace with the introduction of various new concepts in design.</p>
-
-				</div>
-				<div class="col-sm-6 eventPad ">
-					<p class="eventHeading navbarAnimate">TEAM UPDATES</p>
-					<p class="eventContent eventHeading2 navbarAnimate text-justify">Passive Battery Managment System(BMS) design has been completed. PCB is ready to be sent for Fabrication.</p>
-
-				</div>
-			</div>
-		</div>
-
+			
 		<footer class="footer">
 			<div class="container-fluid">
 				<div class="row">
