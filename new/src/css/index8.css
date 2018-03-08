@@ -243,3 +243,19 @@ a:focus{
     background-color: #1da1f2;min-width: 40px;color: #fff;text-align: center;padding: 8px 0
 }
 
+
+/* about page*/
+
+.aboutHeading {
+    font-size: 4vw;
+    font-weight: 900;
+    padding-left: 3.5vw;
+    padding-top: 5vh;
+}
+.aboutContent{
+	font-size: 1.2vw;
+    color: #000;
+    padding-right: 5vw;
+    padding-bottom: 10vh;
+    word-spacing: 3px;
+}
