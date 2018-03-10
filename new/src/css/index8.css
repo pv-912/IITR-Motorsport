@@ -251,6 +251,7 @@ a:focus{
     font-weight: 900;
     padding-left: 3.5vw;
     padding-top: 5vh;
+    color:#000;
 }
 .aboutContent{
 	font-size: 1.2vw;
@@ -259,3 +260,9 @@ a:focus{
     padding-bottom: 10vh;
     word-spacing: 3px;
 }
+
+/* sponsors page*/
+.sponsorsImage{
+	
+}
+
