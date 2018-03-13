@@ -22,6 +22,7 @@
 	    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
 	    <script src="src/js/bootstrap.min.js"></script>
 	    <link href="src/css/index10.css" rel="stylesheet">
+	    <script src="src/js/animation.js"></script>
 	    <!-- <link href="src/css/indexTab.css" rel="stylesheet"> -->
 	    <link href="src/css/indexMob2.css" rel="stylesheet">
 	</head>
@@ -47,11 +48,12 @@
 		    });
 		});
 	</script>
+	
 		<div class="container-fluid mainGIF">
 			
 		</div>
 		
-		<div class="container-fluid sideIcons" style="">
+		<!-- <div class="container-fluid sideIcons" style="">
 			        <div class="row">
 			            <div class="col-lg-12 col-xs-12 ">
 			                <ul class="" style="list-style-type: none;font-size: 2em;color:#fff;width: 100px;">
@@ -62,7 +64,7 @@
 			                </ul>
 			            </div>
 			        </div>
-			    </div>
+			    </div> -->
 
 		<nav class="navbar navbar-default navbarAnimate">
 		  <div class="container-fluid">
@@ -83,7 +85,7 @@
 			        <li><a href="team.html">TEAM</a></li>
 			        <li><a href="gallery.html">GALLERY</a></li>
 			        <li><a href="sponsors.html">SPONSORS</a></li>
-			        <li><a href="#contact">CONTACT US</a></li>
+			        <li><a href="#contact" class="scrollTo">CONTACT US</a></li>
 			    </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -116,7 +118,7 @@
 			</div>
 		</div>
 
-		<footer class="footer">
+		<footer class="footer" id="contact">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-sm-9">
@@ -135,7 +137,6 @@
                 	<div class="col-sm-3">
                 		<div class="row">
 						 	<i class="fa fa-facebook footerSocialIcon" ></i>
-						 	<i class="fa fa-google-plus footerSocialIcon"></i>
 						 	<i class="fa fa-linkedin footerSocialIcon"></i>
 						 	<i class="fa fa-twitter  footerSocialIcon"></i>
 						 	<i class="fa fa-instagram footerSocialIcon"></i>
@@ -147,5 +148,14 @@
 				</div>
 			</div>
 		</footer>
+		<script>
+			$(".scrollTo").on('click', function(e) {
+			     e.preventDefault();
+			     var target = $(this).attr('href');
+			     $('html, body').animate({
+			       scrollTop: ($(target).offset().top)
+			     }, 700);
+			  });
+		</script>
 	</body>
 </html>

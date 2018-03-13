@@ -308,27 +308,23 @@ a:focus{
   transition: .5s ease;
   backface-visibility: hidden;
 }
-
 .hoverDiv {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 35%;
   width: 100%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-
 .imageDiv:hover .personImage {
   opacity: 0.7;
 }
-
 .imageDiv:hover .hoverDiv {
   opacity: 1;
 }
-
 .hoverIconFb {
   background-color: #3b579d;
   color: white;
@@ -344,4 +340,14 @@ a:focus{
   padding: 8px 10px;
   display: inline;
   border-radius: 5px
+}
+.hover08 figure img {
+    -webkit-filter: grayscale(200%);
+    filter: grayscale(200%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.hover08 figure:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
 }

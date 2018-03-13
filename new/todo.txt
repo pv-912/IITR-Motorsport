@@ -1,7 +1,6 @@
 fix navbar on scroll
 navbar button full from up
-remove side fb 
-remove google+
 slider
 logo at title
 our project on hover tooltip
+sponsors

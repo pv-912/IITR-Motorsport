@@ -21,7 +21,7 @@
 	    <link href="src/css/bootstrap-theme.min.css" rel="stylesheet">
 	    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
 	    <script src="src/js/bootstrap.min.js"></script>
-	    <link href="src/css/index9.css" rel="stylesheet">
+	    <link href="src/css/index10.css" rel="stylesheet">
 	    <!-- <link href="src/css/indexTab.css" rel="stylesheet"> -->
 	    <link href="src/css/indexMob2.css" rel="stylesheet">
 	</head>
@@ -47,20 +47,6 @@
 		//     });
 		// });
 	</script>
-		
-		
-		<div class="container-fluid sideIcons" style="">
-			        <div class="row">
-			            <div class="col-lg-12 col-xs-12 ">
-			                <ul class="" style="list-style-type: none;font-size: 2em;color:#fff;width: 100px;">
-			                    <li class="wow flipInY" data-wow-duration="2s" data-wow-delay=".1s"><a href="https://www.facebook.com/iitrms.in/"><i class="fa fa-facebook fb" ></i></a></li>
-			                    <li class="wow flipInY" data-wow-duration="2s" data-wow-delay=".2s"><a href="https://plus.google.com/118206364906217576373/posts"><i class="fa fa-google-plus google" > </i></a></li>
-			                    <li class="wow flipInY" data-wow-duration="2s" data-wow-delay=".4s"><a href="https://in.linkedin.com/in/iitroorkeemotorsportsteam"><i class="fa fa-linkedin linkedin" ></i></a></li>
-			                    <li class="wow flipInY" data-wow-duration="2s" data-wow-delay=".5s"><a href="https://twitter.com/iitrms_iitr"><i class="fa fa-twitter twitter" ></i></a></li>
-			                </ul>
-			            </div>
-			        </div>
-			    </div>
 
 		<nav class="navbar navbar-default navbarAnimate">
 		  <div class="container-fluid">
@@ -81,7 +67,7 @@
 			        <li><a href="team.html">TEAM</a></li>
 			        <li><a href="gallery.html">GALLERY</a></li>
 			        <li  class="active"><a href="sponsors.html">SPONSORS</a></li>
-			        <li><a href="#contact">CONTACT US</a></li>
+			        <li><a href="#contact"  class="scrollTo">CONTACT US</a></li>
 			    </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -116,6 +102,20 @@
 					</ul>
 				</div>
 			</div>
+
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="hover08 column">
+							    <div>
+								    <figure><img src="https://nxworld.net/example/css-image-hover-effects/pic01.jpg" /></figure>
+							    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<footer class="footer" id="contact">
 			<div class="container-fluid">
@@ -136,7 +136,6 @@
                 	<div class="col-sm-3">
                 		<div class="row">
 						 	<i class="fa fa-facebook footerSocialIcon" ></i>
-						 	<i class="fa fa-google-plus footerSocialIcon"></i>
 						 	<i class="fa fa-linkedin footerSocialIcon"></i>
 						 	<i class="fa fa-twitter  footerSocialIcon"></i>
 						 	<i class="fa fa-instagram footerSocialIcon"></i>
@@ -148,5 +147,14 @@
 				</div>
 			</div>
 		</footer>
+		<script>
+			$(".scrollTo").on('click', function(e) {
+			     e.preventDefault();
+			     var target = $(this).attr('href');
+			     $('html, body').animate({
+			       scrollTop: ($(target).offset().top)
+			     }, 700);
+			  });
+		</script>
 	</body>
 </html>
