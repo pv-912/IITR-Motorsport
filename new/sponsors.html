@@ -21,7 +21,7 @@
 	    <link href="src/css/bootstrap-theme.min.css" rel="stylesheet">
 	    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
 	    <script src="src/js/bootstrap.min.js"></script>
-	    <link href="src/css/index8.css" rel="stylesheet">
+	    <link href="src/css/index9.css" rel="stylesheet">
 	    <!-- <link href="src/css/indexTab.css" rel="stylesheet"> -->
 	    <link href="src/css/indexMob2.css" rel="stylesheet">
 	</head>
@@ -76,22 +76,44 @@
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		        <ul class="nav navbar-nav navbar-right headerLink">
 			        <li><a href="index.html">HOME</a></li>
-			        <li class="active"><a href="about.html">ABOUT US</a></li>
+			        <li><a href="about.html">ABOUT US</a></li>
 			        <li><a href="project.html">OUR PROJECT</a></li>
 			        <li><a href="team.html">TEAM</a></li>
 			        <li><a href="gallery.html">GALLERY</a></li>
-			        <li><a href="sponsors.html">SPONSORS</a></li>
+			        <li  class="active"><a href="sponsors.html">SPONSORS</a></li>
 			        <li><a href="#contact">CONTACT US</a></li>
 			    </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
 		
+<script>
+	function focus1(){
+		var a= document.getElementById("recent");
+		var b= document.getElementById("former");
+		a.style.backgroundColor="#fff";
+		a.style.color="#666";
+		b.style.backgroundColor="#2c3e50";
+		b.style.color="#fff";
+	}
+	function focus2(){
+		var b= document.getElementById("recent");
+		var a= document.getElementById("former");
+		a.style.backgroundColor="#fff";
+		a.style.color="#666";
+		b.style.backgroundColor="#2c3e50";
+		b.style.color="#fff";
+	}
+</script>
+
 		<div class="container-fluid" >
-			<p class="aboutHeading">SPONSORS</p>
+			<p class="aboutHeading">OUR SPONSORS</p>
 			<div class="row">
 				<div class="col-sm-4 sponsorsImage">
-					
+					<ul class=" new_old_sponsors" >
+					    <li role="presentation" class="active"><button href="#new" id="recent" class="new-tab"  onmouseover="focus2();" onfocus="focus2();" aria-controls="home" role="tab" data-toggle="tab">Recent</button>|</li>
+					    <li role="presentation"><button href="#old" onmouseover="focus1();" onfocus="focus1();" id="former" class="old-tab" aria-controls="profile" role="tab" data-toggle="tab" >Former</button></li>
+					</ul>
 				</div>
 			</div>
 		</div>

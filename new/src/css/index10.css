@@ -263,6 +263,85 @@ a:focus{
 
 /* sponsors page*/
 .sponsorsImage{
-	
+
+}
+.new-tab{
+        font-size: 1.1em;
+        border:none;
+        font-weight: 300;
+        color:#fff;
+        padding: 5px 25px;
+        border-radius: 5px;
+        background-color: #000;
+    }
+    .old-tab{
+        font-size: 1.1em;
+        border:none;
+        font-weight: 300;
+        color:#666;
+        padding: 5px 25px;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+    
+    .new_old_sponsors{
+        margin-left: 8%;
+        list-style-type: none;
+    }
+    .new_old_sponsors li{
+        padding-left: 2%;
+        display: inline-block;
+    }
+
+.imageDiv {
+    position: relative;
+    /*width: 100%;*/
+    text-align: center;
 }
 
+.personImage {
+  opacity: 1;
+  display: block;
+  width: 135px;
+  height: 135px;
+  border-radius:300px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.hoverDiv {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.imageDiv:hover .personImage {
+  opacity: 0.7;
+}
+
+.imageDiv:hover .hoverDiv {
+  opacity: 1;
+}
+
+.hoverIconFb {
+  background-color: #3b579d;
+  color: white;
+  font-size: 15px;
+  padding: 8px 13.5px;
+  display: inline;
+  border-radius: 5px
+}
+.hoverIconLinkedin {
+  background-color: #007bb6;
+  color: white;
+  font-size: 15px;
+  padding: 8px 10px;
+  display: inline;
+  border-radius: 5px
+}
