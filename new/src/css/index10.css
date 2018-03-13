@@ -298,12 +298,12 @@ a:focus{
     /*width: 100%;*/
     text-align: center;
 }
-
+	
 .personImage {
   opacity: 1;
   display: block;
-  width: 135px;
-  height: 135px;
+  width: 165px;
+  height: 165px;
   border-radius:300px;
   transition: .5s ease;
   backface-visibility: hidden;
