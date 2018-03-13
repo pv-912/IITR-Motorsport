@@ -78,16 +78,16 @@
 		var a= document.getElementById("recent");
 		var b= document.getElementById("former");
 		a.style.backgroundColor="#fff";
-		a.style.color="#666";
-		b.style.backgroundColor="#2c3e50";
+		a.style.color="#000";
+		b.style.backgroundColor="#000";
 		b.style.color="#fff";
 	}
 	function focus2(){
 		var b= document.getElementById("recent");
 		var a= document.getElementById("former");
 		a.style.backgroundColor="#fff";
-		a.style.color="#666";
-		b.style.backgroundColor="#2c3e50";
+		a.style.color="#000";
+		b.style.backgroundColor="#000";
 		b.style.color="#fff";
 	}
 </script>
@@ -95,26 +95,151 @@
 		<div class="container-fluid" >
 			<p class="aboutHeading">OUR SPONSORS</p>
 			<div class="row">
-				<div class="col-sm-4 sponsorsImage">
+				<div class="col-sm-6 ">
 					<ul class=" new_old_sponsors" >
-					    <li role="presentation" class="active"><button href="#new" id="recent" class="new-tab"  onmouseover="focus2();" onfocus="focus2();" aria-controls="home" role="tab" data-toggle="tab">Recent</button>|</li>
-					    <li role="presentation"><button href="#old" onmouseover="focus1();" onfocus="focus1();" id="former" class="old-tab" aria-controls="profile" role="tab" data-toggle="tab" >Former</button></li>
+					    <li role="presentation" class="active"><button href="#new" id="recent" class="new-tab"   onclick="focus2();" aria-controls="home" role="tab" data-toggle="tab">Recent</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</li>
+					    <li role="presentation"><button href="#old" onclick="focus1();" id="former" class="old-tab" aria-controls="profile" role="tab" data-toggle="tab" >Former</button></li>
 					</ul>
 				</div>
 			</div>
-
-			<div class="row">
-				<div class="col-sm-10 col-sm-offset-1">
-					<div class="row">
-						<div class="col-sm-3">
-							<div class="hover08 column">
-							    <div>
-								    <figure><img src="https://nxworld.net/example/css-image-hover-effects/pic01.jpg" /></figure>
-							    </div>
+			<div class="tab-content">
+		    	<div role="tabpanel" class="tab-pane active " id="new">	
+					<div class="row" style="margin-top: 5vh;margin-bottom: 15vh">
+						<div class="col-sm-11 col-sm-offset-1">
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/mrf.png"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/gl.jpg"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/sw.png"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+		    	<div role="tabpanel" class="tab-pane" id="old">	
+		    		<div class="row" style="margin-top: 5vh;margin-bottom: 15vh">
+						<div class="col-sm-11 col-sm-offset-1">
+							<h1 style="text-align: center;">GOLD SPONSORS</h1>
+							<div class="row">
+								<div class="col-sm-3">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/mrf.png"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/wb.png"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/iotrek.png"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/navigus.png"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
+							</div>
+
+							<h1 style="text-align: center;">SILVER SPONSORS</h1>
+							<div class="row">
+								<div class="col-sm-3">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/motul.png"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/gdl.jpg"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/blc.png"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/sw.png"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
+							</div>
+
+							<h1 style="text-align: center;">BRONZE SPONSORS</h1>
+							<div class="row">
+								<div class="col-sm-3">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/cen.gif"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/phe.png"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/tidc.png"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/tidc.png"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="hover08 column">
+									    <div>
+										    <figure><img src="src/img/sponsors/enap.jpg"  class="sponsorsImage" /></figure>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+		    	</div>
 			</div>
 		</div>
 		<footer class="footer" id="contact">

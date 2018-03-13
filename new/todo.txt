@@ -4,3 +4,10 @@ slider
 logo at title
 our project on hover tooltip
 sponsors
+
+
+1st year to do
+
+1. design the sponsors page
+2. design team page perfectly
+3. try to change design of footer

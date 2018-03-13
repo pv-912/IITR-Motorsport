@@ -262,9 +262,6 @@ a:focus{
 }
 
 /* sponsors page*/
-.sponsorsImage{
-
-}
 .new-tab{
         font-size: 1.1em;
         border:none;
@@ -282,6 +279,7 @@ a:focus{
         padding: 5px 25px;
         border-radius: 5px;
         background-color: #fff;
+        display: inline;
     }
     
     .new_old_sponsors{
@@ -342,12 +340,16 @@ a:focus{
   border-radius: 5px
 }
 .hover08 figure img {
-    -webkit-filter: grayscale(200%);
-    filter: grayscale(200%);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
 .hover08 figure:hover img {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
+}
+.sponsorsImage{
+        height: 110px;
+    width: 250px;
 }
