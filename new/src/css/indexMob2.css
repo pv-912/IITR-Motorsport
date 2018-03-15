@@ -99,12 +99,9 @@ word-spacing: 0px;
 padding-left: 14px;
 
 }
-
-
-
-
-
-
+.display{
+    display: none;
+}
 
 
 }

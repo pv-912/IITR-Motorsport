@@ -404,3 +404,6 @@ nav.shrink .navbar-toggle {
 .ae{
   margin-top: 50px;
 }
+.display{
+    display: block;
+}
