@@ -156,6 +156,8 @@ font-size:08px;
 .TEAM
 {
   color:black;font-size:40px;margin-left: 50px;font-weight: bold;
+}.display{
+    display: none;
 }
 .display{
     display: none;

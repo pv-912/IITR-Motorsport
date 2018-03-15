@@ -472,4 +472,6 @@ nav.shrink .navbar-toggle {
   height:300px;
   width:300px;
   background-color: red;
+}.display{
+    display: block;
 }
