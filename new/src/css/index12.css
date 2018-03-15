@@ -407,3 +407,36 @@ nav.shrink .navbar-toggle {
 .display{
     display: block;
 }
+.welcomeToMotorsport{
+    z-index: 1;
+    position: absolute;
+    color: #ff0000;
+    font-size: 7vw;
+    background-color: #000;
+    font-weight: 900;
+    opacity: 0.6;
+    top: 0vh;
+    padding: 27vh 24vw 29vh 7vw;
+    word-spacing: 2vw;
+}
+.affix {
+      padding-bottom: 15px;
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+
+      nav.navbar.shrink {
+  min-height: 35px;
+}
+nav.shrink a {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  font-size: 10px;
+}
+nav.shrink .navbar-brand {
+  font-size: 10px;
+}
+nav.shrink .navbar-toggle {
+  padding: 2px 2px;
+  margin: 8px 0 8px 0;
+}
