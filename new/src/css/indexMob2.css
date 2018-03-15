@@ -97,7 +97,64 @@
 line-height: 1.2;
 word-spacing: 0px;
 padding-left: 14px;
-
+}
+.personImage {
+    opacity: 1;
+    display: block;
+    width: 65px;
+    height: 65px;
+    border-radius: 300px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.hoverIconFb {
+  background-color: #3b579d;
+  color: white;
+  font-size: 15px;
+  padding: 4px 4px;
+  display: inline;
+  border-radius: 5px
+}
+.hoverIconLinkedin {
+  background-color: #007bb6;
+  color: white;
+  font-size: 15px;
+  padding: 4px 4px;
+  display: inline;
+  border-radius: 5px
+}
+.team
+{
+  color:#138D75  ;
+  font-size:15px;
+}
+.teamid
+{
+    width:65px;
+  padding:0px;  
+}
+.teamname
+{
+  color:blue;
+  font-size:10px;
+  padding:0px;
+}
+.teampos
+{
+font-size:08px;
+}
+.department
+{
+  color:orange;
+  font-size: 20px;
+}
+.hoverDiv {
+  top: 35%;
+  left: 75%;
+}
+.TEAM
+{
+  color:red;font-size:20px;text-align: center;
 }
 .display{
     display: none;
