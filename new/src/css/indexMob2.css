@@ -175,13 +175,23 @@ font-size:08px;
     width: 225px;
     padding: 20px;
 }
-
-
-
-
-
-
-
+.aboutHeading {
+    font-size: 8vw;
+    padding-left: 0;
+    padding-top: 0vh;
+}
+.aboutContent {
+    font-size: 4.2vw;
+    padding-right: 5vw;
+    padding-bottom: 10vh;
+    word-spacing: 0;
+    line-height: 21px;
+    padding-top: 18px;
+    padding-left: 3px;
+}
+.display{
+    display: none;
+}
 
 
 }
