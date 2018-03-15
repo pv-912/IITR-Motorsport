@@ -323,6 +323,29 @@ a:focus{
 .imageDiv:hover .hoverDiv {
   opacity: 1;
 }
+.team
+{
+  color:#138D75  ;
+  font-size:20px;
+}
+.teamid
+{
+	width: 165px;
+  padding:0px;  
+}
+.teamname
+{
+  color:blue;
+  font-size:20px;
+  padding:0px;
+}
+.department
+{
+  color:orange;
+  font-size: 30px;
+}
+
+
 .hoverIconFb {
   background-color: #3b579d;
   color: white;
