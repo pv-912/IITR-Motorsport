@@ -23,7 +23,7 @@
     padding-left: 10vw;
     padding-right: 7vw;
     line-height: 26px;
-    margin-top: -5vh;
+    margin-top: 0vh;
     word-spacing: -.5vw
 }
 .readMoreMainButton a {
@@ -76,7 +76,9 @@
     display: block;
     padding: 10px 46px;
 }
-
+.display{
+    display: none;
+}
 
 
 

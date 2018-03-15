@@ -6,7 +6,7 @@ body, html {
 	box-sizing: border-box;
 	font-family: 'Lato', sans-serif;
 	letter-spacing: 0.3px;
-	color: #333333;
+	color: #fff ;
     align-items:center;
   justify-content:center;
   /*margin-bottom: 100vh*/
@@ -352,4 +352,7 @@ a:focus{
 .sponsorsImage{
         height: 110px;
     width: 250px;
+}
+.display{
+    display: block;
 }
