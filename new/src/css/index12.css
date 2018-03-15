@@ -356,3 +356,15 @@ a:focus{
 .display{
     display: block;
 }
+.welcomeToMotorsport{
+    z-index: 1;
+    position: absolute;
+    color: #ff0000;
+    font-size: 7vw;
+    background-color: #000;
+    font-weight: 900;
+    opacity: 0.6;
+    top: 0vh;
+    padding: 27vh 24vw 29vh 7vw;
+    word-spacing: 2vw;
+}

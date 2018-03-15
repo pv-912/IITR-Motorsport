@@ -5,13 +5,15 @@
 }
 #sliderFrame 
 {
+    z-index: 0;
     position:relative;
     background-color:white;
-
+    width:100vw;
+    /*margin-left: 2vw*/
 }      
 
 #slider, #slider .sliderInner {
-    width:960px;height:400px;/* Must be the same size as the slider images */
+    width:100vw;height:100vh;/* Must be the same size as the slider images */
     border-radius:0px;
 }
 
@@ -19,7 +21,7 @@
 {
     background-color:white;
     position:relative;
-    margin:0 auto; /*center-aligned*/
+    /*margin-left: 10vw; /*center-aligned*/*/
     transform: translate3d(0,0,0);
 }
 
@@ -69,7 +71,7 @@
 }
 a.group1-Prev, a.group1-Next
 {
-    width:50px;height:150px;
+    width:60px;height:150px;
     background:transparent url(navbuttons2.gif); 
     display:block; 
     cursor:pointer;
