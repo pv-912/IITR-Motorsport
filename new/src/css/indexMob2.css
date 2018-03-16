@@ -89,7 +89,13 @@
     width: 225px;
     padding: 20px;
 }
+.aboutContent{
+    font-size: 5.2vw;
+line-height: 1.2;
+word-spacing: 0px;
+padding-left: 14px;
 
+}
 
 
 
