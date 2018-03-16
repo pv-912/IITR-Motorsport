@@ -262,7 +262,7 @@ a:focus{
 }
 .TEAM
 {
-  color:red;font-size:40px;margin-left:30px;
+  color:black;font-size:40px;margin-left:120px;font-weight: bold;
 }
 
 /* sponsors page*/
@@ -347,6 +347,7 @@ a:focus{
 {
   color:orange;
   font-size: 30px;
+  margin-left: 40%;
 }
 
 
@@ -466,4 +467,9 @@ nav.shrink .navbar-brand {
 nav.shrink .navbar-toggle {
   padding: 2px 2px;
   margin: 8px 0 8px 0;
+}.facultydata
+{
+  height:300px;
+  width:300px;
+  background-color: red;
 }

@@ -147,6 +147,7 @@ font-size:08px;
 {
   color:orange;
   font-size: 20px;
+  margin-left: 35%;
 }
 .hoverDiv {
   top: 35%;
@@ -154,7 +155,7 @@ font-size:08px;
 }
 .TEAM
 {
-  color:red;font-size:20px;text-align: center;
+  color:black;font-size:40px;margin-left: 50px;font-weight: bold;
 }
 .display{
     display: none;
