@@ -247,7 +247,7 @@ a:focus{
 /* about page*/
 
 .aboutHeading {
-    font-size: 4vw;
+    font-size: 5vw;
     font-weight: 900;
     padding-left: 3.5vw;
     padding-top: 5vh;
@@ -388,4 +388,19 @@ nav.shrink .navbar-brand {
 nav.shrink .navbar-toggle {
   padding: 2px 2px;
   margin: 8px 0 8px 0;
+}
+.staticnaavbar{
+  position: sticky;
+  top:100px;
+  left:150px;
+}
+.goldspons{
+  margin:100px;
+  text-align: center;
+  color: #826436;
+  font-weight: 900;
+  font-size: 2.4vw;
+}
+.ae{
+  margin-top: 50px;
 }
