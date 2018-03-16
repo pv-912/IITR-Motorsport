@@ -76,6 +76,26 @@
     display: block;
     padding: 10px 46px;
 }
+.aboutHeading{
+    font-size: 9vw;
+    padding-top: 0;
+}
+.goldspons{
+    font-size: 8vw;
+    margin: 53px;
+}
+.sponsorsImage {
+    height: 100px;
+    width: 225px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -87,4 +107,3 @@
 
 
 }
-
