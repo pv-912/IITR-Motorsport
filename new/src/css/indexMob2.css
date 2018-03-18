@@ -192,6 +192,19 @@ font-size:08px;
 .display{
     display: none;
 }
-
+.hoverDiv {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 42%;
+  left: 35%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.headingsCar{
+  font-size:  7.5vw;
+}
 
 }

@@ -76,7 +76,9 @@ a:focus{
 	font-family: 'Lato' , sans-serif;
 	-webkit-transition: .4s; /* Safari */
     transition: .4s;
-}
+        /*margin-top: -4.5vh;*/
+
+
 }
 
 .headerLink li a:hover{
@@ -95,6 +97,7 @@ a:focus{
 	background-color: #000;
 	color: #fff !important;
 	border-radius: 5px;
+
 }
 .aboutUsHeading{
 	color:#000;
@@ -314,8 +317,8 @@ a:focus{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
-  left: 25%;
+  top: 42%;
+  left: 35%;
   width: 100%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -396,56 +399,29 @@ a:focus{
     padding: 27vh 24vw 29vh 7vw;
     word-spacing: 2vw;
 }
-.affix {
-      padding-bottom: 15px;
-      top: 0;
-      width: 100%;
-      z-index: 9999 !important;
-
-      nav.navbar.shrink {
-  min-height: 35px;
-}
-nav.shrink a {
-  padding-top: 2px !important;
-  padding-bottom: 2px !important;
-  font-size: 10px;
-}
-nav.shrink .navbar-brand {
-  font-size: 10px;
-}
-nav.shrink .navbar-toggle {
-  padding: 2px 2px;
-  margin: 8px 0 8px 0;
-}
 .staticnaavbar{
   position: sticky;
   top:100px;
   left:150px;
 }
-.goldspons{
-  margin:100px;
-  text-align: center;
-  color: #826436;
-  font-weight: 900;
-  font-size: 2.4vw;
+.goldspons {
+    text-align: center;
+    color: #826436;
+    font-weight: 900;
+    font-size: 3.4vw;
+    margin-top: 1vh;
+    margin-bottom: 10vh;
+}
+.silverspons {
+    text-align: center;
+    color: #826436;
+    font-weight: 900;
+    font-size: 3.4vw;
+    margin-top: 20vh;
+    margin-bottom: 17vh;
 }
 .ae{
   margin-top: 50px;
-}
-.display{
-    display: block;
-}
-.welcomeToMotorsport{
-    z-index: 1;
-    position: absolute;
-    color: #ff0000;
-    font-size: 7vw;
-    background-color: #000;
-    font-weight: 900;
-    opacity: 0.6;
-    top: 0vh;
-    padding: 27vh 24vw 29vh 7vw;
-    word-spacing: 2vw;
 }
 .affix {
       padding-bottom: 15px;
@@ -467,7 +443,8 @@ nav.shrink .navbar-brand {
 nav.shrink .navbar-toggle {
   padding: 2px 2px;
   margin: 8px 0 8px 0;
-}.facultydata
+}
+.facultydata
 {
   height:300px;
   width:300px;
