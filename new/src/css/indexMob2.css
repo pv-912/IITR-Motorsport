@@ -87,9 +87,38 @@
     font-size: 8vw;
     margin: 53px;
 }
-.sponsorsImage {
-    height: 100px;
+.silverspons{
+    font-size: 6vw;
+    margin: 53px;
+}
+.bronzespons{
+    font-size: 5vw;
+    margin: 53px;
+}
+
+.AEsponsors
+{
+  margin:auto;
+}
+.sponsorsImage{
+        height: 100px;
     width: 225px;
+    padding: 20px;
+}
+.goldsponsorsImage{
+        height: 120px;
+    width: 245px;
+    padding: 20px;
+}
+.silversponsorsImage{
+        height: 100px;
+    width: 225px;
+    padding: 20px;
+
+}
+.bronzesponsorsImage{
+        height: 80px;
+    width: 205px;
     padding: 20px;
 }
 .aboutContent{

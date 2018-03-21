@@ -380,10 +380,27 @@ a:focus{
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
+.AEsponsors
+{
+  margin-left:120%;
+}
 .sponsorsImage{
         height: 110px;
     width: 250px;
 }
+.goldsponsorsImage{
+        height: 150px;
+    width: 280px;
+}
+.silversponsorsImage{
+        height: 110px;
+    width: 250px;
+}
+.bronzesponsorsImage{
+        height: 70px;
+    width: 210px;
+}
+
 .display{
     display: block;
 }
@@ -408,7 +425,7 @@ a:focus{
     text-align: center;
     color: #826436;
     font-weight: 900;
-    font-size: 3.4vw;
+    font-size: 4vw;
     margin-top: 1vh;
     margin-bottom: 10vh;
 }
@@ -416,7 +433,15 @@ a:focus{
     text-align: center;
     color: #826436;
     font-weight: 900;
-    font-size: 3.4vw;
+    font-size: 3vw;
+    margin-top: 20vh;
+    margin-bottom: 17vh;
+}
+.bronzespons {
+    text-align: center;
+    color: #826436;
+    font-weight: 900;
+    font-size: 2vw;
     margin-top: 20vh;
     margin-bottom: 17vh;
 }
