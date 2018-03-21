@@ -6,7 +6,7 @@ body, html {
 	box-sizing: border-box;
 	font-family: 'Lato', sans-serif;
 	letter-spacing: 0.3px;
-	color: #fff ;
+	color:black ;
     align-items:center;
   justify-content:center;
   /*margin-bottom: 100vh*/
@@ -317,7 +317,7 @@ a:focus{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 42%;
+  top: 36%;
   left: 35%;
   width: 100%;
   transform: translate(-50%, -50%);
@@ -423,12 +423,28 @@ a:focus{
 .ae{
   margin-top: 50px;
 }
+.header
+{
+  position:sticky;
+  top:0px;
+  z-index:1; 
+}
+.twoline
+{
+ font-size:16px;padding-top:3px;
+}
+.teamImage
+{
+  display:block;
+  width:165px;
+  height:165px;
+  border-radius:300px;
+}
 .affix {
       padding-bottom: 15px;
       top: 0;
       width: 100%;
       z-index: 9999 !important;
-
       nav.navbar.shrink {
   min-height: 35px;
 }
@@ -464,3 +480,4 @@ nav.shrink .navbar-toggle {
     padding: 27vh 24vw 29vh 7vw;
     word-spacing: 2vw;
 }
+
