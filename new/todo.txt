@@ -1,9 +1,7 @@
 fix navbar on scroll
 navbar button full from up
 slider
-logo at title
 our project on hover tooltip
-sponsors
 
 
 1st year to do
