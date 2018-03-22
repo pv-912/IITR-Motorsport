@@ -317,7 +317,7 @@ a:focus{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 36%;
+  top: 40%;
   left: 35%;
   width: 100%;
   transform: translate(-50%, -50%);
@@ -344,7 +344,7 @@ a:focus{
 {
   color:blue;
   font-size:20px;
-  padding:0px;
+  padding-left:6px;
 }
 .department
 {
@@ -452,6 +452,32 @@ a:focus{
   width:165px;
   height:165px;
   border-radius:300px;
+}
+.teamFaculty
+{
+  width:180px;
+  height:180px;
+  border-radius:0px;
+}
+.facultyDetails
+{
+   color: #000;
+    font-size: 16px;
+    word-spacing:4px;
+    line-height:20px;
+    font-weight:250px;
+}
+.electricJS
+{
+  display:none;
+}
+.flipDown
+{
+  cursor:pointer;
+}
+#elecJS,#creativeJS,#mechJS,#marketJS
+{
+  display:none;
 }
 .affix {
       padding-bottom: 15px;
