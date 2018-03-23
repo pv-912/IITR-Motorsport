@@ -251,7 +251,7 @@ a:focus{
 
 .aboutHeading {
     font-size: 5vw;
-    font-weight: 900;
+    font-weight: 900; 
     padding-left: 3.5vw;
     padding-top: 5vh;
     color:#000;
@@ -640,4 +640,14 @@ nav.shrink .navbar-toggle {
     font-size: 1.3vw;
     font-weight: 700;
     cursor: pointer;
+}
+.goldspons{
+  margin:100px;
+  text-align: center;
+  color: #826436;
+  font-weight: 900;
+  font-size: 2.4vw;
+}
+.ae{
+  margin-top: 50px;
 }
