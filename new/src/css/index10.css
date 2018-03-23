@@ -6,7 +6,7 @@ body, html {
 	box-sizing: border-box;
 	font-family: 'Lato', sans-serif;
 	letter-spacing: 0.3px;
-	color: black ;
+	color: #fff ;
     align-items:center;
   justify-content:center;
   /*margin-bottom: 100vh*/
@@ -76,9 +76,7 @@ a:focus{
 	font-family: 'Lato' , sans-serif;
 	-webkit-transition: .4s; /* Safari */
     transition: .4s;
-        /*margin-top: -4.5vh;*/
-
-
+}
 }
 
 .headerLink li a:hover{
@@ -97,13 +95,12 @@ a:focus{
 	background-color: #000;
 	color: #fff !important;
 	border-radius: 5px;
-
 }
 .aboutUsHeading{
 	color:#000;
 	font-size: 6.5vw;
 	padding-right: 10vw;
-	margin-top: 2vh;
+	margin-top: 3vh;
 	font-weight: 900;
 	font-family: 'Lato', snas-serif;
 }
@@ -250,22 +247,18 @@ a:focus{
 /* about page*/
 
 .aboutHeading {
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 900;
     padding-left: 3.5vw;
     padding-top: 5vh;
     color:#000;
 }
 .aboutContent{
-	   font-size: 1.2vw;   
+	font-size: 1.2vw;
     color: #000;
     padding-right: 5vw;
     padding-bottom: 10vh;
     word-spacing: 3px;
-}
-.TEAM
-{
-  color:black;font-size:40px;margin-left:120px;font-weight: bold;
 }
 
 /* sponsors page*/
@@ -317,7 +310,7 @@ a:focus{
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 42%;
+  top: 50%;
   left: 35%;
   width: 100%;
   transform: translate(-50%, -50%);
@@ -330,30 +323,6 @@ a:focus{
 .imageDiv:hover .hoverDiv {
   opacity: 1;
 }
-.team
-{
-  color:#138D75  ;
-  font-size:20px;
-}
-.teamid
-{
-	width: 165px;
-  padding:0px;  
-}
-.teamname
-{
-  color:blue;
-  font-size:20px;
-  padding:0px;
-}
-.department
-{
-  color:orange;
-  font-size: 30px;
-  margin-left: 40%;
-}
-
-
 .hoverIconFb {
   background-color: #3b579d;
   color: white;
@@ -398,96 +367,4 @@ a:focus{
     top: 0vh;
     padding: 27vh 24vw 29vh 7vw;
     word-spacing: 2vw;
-}
-.staticnaavbar{
-  position: sticky;
-  top:100px;
-  left:150px;
-}
-.goldspons {
-    text-align: center;
-    color: #826436;
-    font-weight: 900;
-    font-size: 3.4vw;
-    margin-top: 1vh;
-    margin-bottom: 10vh;
-}
-.silverspons {
-    text-align: center;
-    color: #826436;
-    font-weight: 900;
-    font-size: 3.4vw;
-    margin-top: 20vh;
-    margin-bottom: 17vh;
-}
-.competitio{
-  font-weight: bold;
-  font-size: 3vw;
-  color: black;
-  padding: 1vw;
-  margin: 1vw;
-}
-.compdetails{
-  padding-left: 1vw;
-  font-size: 1.1vw;
-  margin-left: 1vw;
-  margin-bottom: 1vw;
-}
-.ae{
-  margin-top: 50px;
-}
-.affix {
-      padding-bottom: 15px;
-      top: 0;
-      width: 100%;
-      z-index: 9999 !important;
-
-      nav.navbar.shrink {
-  min-height: 35px;
-}
-nav.shrink a {
-  padding-top: 2px !important;
-  padding-bottom: 2px !important;
-  font-size: 10px;
-}
-nav.shrink .navbar-brand {
-  font-size: 10px;
-}
-nav.shrink .navbar-toggle {
-  padding: 2px 2px;
-  margin: 8px 0 8px 0;
-}
-.facultydata{
-  height:300px;
-  width:300px;
-  background-color: red;
-}
-.display{
-    display: block;
-}
-.welcomeToMotorsport{
-    z-index: 1;
-    position: absolute;
-    color: #ff0000;
-    font-size: 7vw;
-    background-color: #000;
-    font-weight: 900;
-    opacity: 0.6;
-    top: 0vh;
-    padding: 27vh 24vw 29vh 7vw;
-    word-spacing: 2vw;
-}
-.downloadBrochureButton{
-  margin-top: -21vh;
-    text-align: center;
-    margin-left: -2vw;
-}
-.downloadBrochureButton a{
-    background-color: #ff3333;
-    color: #fff;
-    padding: 17px 28px;
-    border-radius: 5px;
-    font-size: 1.3vw;
-    font-weight: 700;
-    cursor: pointer;
 }
