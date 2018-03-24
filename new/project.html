@@ -11,11 +11,11 @@
 	    <meta name="keywords" content="">
 
 	    <meta name="author" content="IIT Roorkee MotorSports | IIT RMS">
-
+        <script type="text/javascript" src="cars_js.js"></script>
 	    <link rel="icon" href="src/img/logo.ico">
 	    <link href="https://fonts.googleapis.com/css?family=Allerta|Lato:300,400,700,900" rel="stylesheet">
 	    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>      
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	    <link href="src/css/bootstrap.min.css" rel="stylesheet">
 	    <link href="src/css/bootstrap-theme.min.css" rel="stylesheet">
@@ -50,8 +50,12 @@
 		        }); 
 		    });
 		});
+
+
+
+
 	</script>
-		<nav class="navbar navbar-default navbarAnimate">
+		<nav class="navbar navbar-default navbarAnimate sticky">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -77,38 +81,55 @@
 		</nav>
 	<div id="sliderFrame" style="margin-top: 5vh;margin-bottom: 5vh">
         <div id="slider">
-            <a href="cars2017.html"><img src="src/img/gallery/img1.jpg"  /></a>
-            <a href="cars2015.html"><b data-src="src/img/gallery/img2.jpg"></b></a>
-            <a href="cars2013.html"><b data-src="src/img/gallery/img3.jpg"></b></a>
-             <a href="cars2011.html"><img src="src/img/gallery/img4.jpg"  /></a>
+            <a href="cars2017.html" ><img src="src/img/gallery/img1.jpg"  /></a>
+            <a href="cars2015.html" onclick="cars()" ><b data-src="src/img/gallery/img2.jpg"></b></a>
+            <a href="cars2013.html" onclick="cars()"><b data-src="src/img/gallery/img3.jpg"></b></a>
+             <a href="cars2011.html" onclick="cars()"><img src="src/img/gallery/img4.jpg"  /></a>
         </div>
         <!--thumbnails-->
         <div id="thumbs">
-            <div class="thumb">
+            <div class="thumb"  id="cars_2017">
                 <div class="frame"><img src="src/img/gallery/img1.jpg" /></div>
                 <div class="thumb-content"><p>CAR 2017</p>Thumbnails allows any HTML content</div>
                 <div style="clear:both;"></div>
             </div>
-            <div class="thumb">
-                <div class="frame"><img src="src/img/gallery/img2.jpg" /></div>
-                <div class="thumb-content"><p>Car 2015</p>Thumbnail style is customizable</div>
+            <div class="thumb" id="cars_2015">
+                <div class="frame" ><img src="src/img/gallery/img2.jpg" /></div>
+                <div class="thumb-content" onclick="cars()"><p>Car 2015</p>Thumbnail style is customizable</div>
                 <div style="clear:both;"></div>
             </div>
-            <div class="thumb">
+            <div class="thumb"  id="cars_2013">
                 <div class="frame"><img src="src/img/gallery/img3.jpg" /></div>
-                <div class="thumb-content"><p>Car 2013</p>Just a CSS tweak.</div>
+                <div class="thumb-content" onclick="cars()"><p>Car 2013</p>Just a CSS tweak.</div>
                 <div style="clear:both;"></div>
             </div>
-            <div class="thumb">
+            <div class="thumb"  id="cars_2011">
                 <div class="frame"><img src="src/img/gallery/img4.jpg" /></div>
-                <div class="thumb-content"><p>Car 2011</p>Built-in functions for the thumbnails</div>
+                <div class="thumb-content" onclick="cars()"><p>Car 2011</p>Built-in functions for the thumbnails</div>
                 <div style="clear:both;"></div>
             </div>
         </div>
         <!--clear above float:left elements. It is required if above #slider is styled as float:left. -->
         <div style="clear:both;height:0;"></div>
     </div>
-	
+	<div id="toggle">
+		"Being the best team among electric cars in India, team IIT ROORKEE MOTORSPORTS showcased it's ability again by building a fully electric car to run across the tracks of FORMULA GREEN 2017 in Coimbatore. SABER due to its unbeatable designing as well as awesome technical support, was able to beat the fastest team in competition by a gap of 31 second in friendly run. Panel was so impressed by its unique aero cooling system, cost effectiveness as well as hard work and dedication of our team that they gave us an HONORARY ENTRY in next Formula Green Competition ."
+	</div>
+
+	<script>
+		
+function cars() {
+    var car_2017 = document.getElementById("cars_2017");
+    var car_2015 = document.getElementById("cars_2015");
+    var car_2013 = document.getElementById("cars_2013");
+    var car_2011 = document.getElementById("cars_2011");
+    var toggle = document.getElementById("toggle");
+    if(car_2015.onfocus()){
+    	toggle.innerHTML = "hello..................................";
+    }
+        }
+
+	</script>
 		<!-- <div class="container-fluid mainGIF display">
 			<div id="sliderFrame">
 		        <div id="slider">
