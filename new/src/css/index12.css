@@ -54,13 +54,16 @@ a:focus{
 	background-image: none ;
 	box-shadow: none ;
 	border-color: #fff ;
-	padding-top: 5px
+	padding-top: 0px
 }
-
+.mainSliderImage{
+  
+}
 .logoHeader{
 	width: 13vw;
 	height: auto;
 	margin-left: 28%;
+  margin-top: -2.5vh
 }
 
 .headerLink {
@@ -76,7 +79,7 @@ a:focus{
 	font-family: 'Lato' , sans-serif;
 	-webkit-transition: .4s; /* Safari */
     transition: .4s;
-        /*margin-top: -4.5vh;*/
+        margin-top: -2.5vh;
 
 
 }
@@ -250,17 +253,16 @@ a:focus{
 /* about page*/
 
 .aboutHeading {
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 900; 
     padding-left: 3.5vw;
     padding-top: 5vh;
-    color:#000;
+        color: #333;
 }
 .aboutContent{
-	   font-size: 1.2vw;   
-    color: #000;
+	   font-size: 1vw;   
+    color: #444;
     padding-right: 5vw;
-    padding-bottom: 10vh;
     word-spacing: 3px;
 }
 .TEAM
@@ -408,13 +410,25 @@ a:focus{
     z-index: 1;
     position: absolute;
     color: #ff0000;
-    font-size: 7vw;
+    font-size: 5vw;
     background-color: #000;
     font-weight: 900;
     opacity: 0.6;
     top: 0vh;
     padding: 27vh 24vw 29vh 7vw;
     word-spacing: 2vw;
+}
+.ElectrifyingRacing{
+  z-index: 1;
+    position: absolute;
+    color: #ff0000;
+    font-size:2vw;
+    /*background-color: #000;*/
+    font-weight: 900;
+    opacity: 0.6;
+    top: 30vh;
+    padding: 27vh 24vw 29vh 7vw;
+    word-spacing: .5vw;
 }
 .staticnaavbar{
   position: sticky;
@@ -446,17 +460,23 @@ a:focus{
     margin-bottom: 17vh;
 }
 .competitio{
-  font-weight: bold;
-  font-size: 3vw;
-  color: black;
-  padding: 1vw;
-  margin: 1vw;
+      font-weight: 900;
+    font-size: 2.5vw;
+    color: #333;
+    margin-left: 3.5vw;
+    margin-top: 7vh
 }
 .compdetails{
-  padding-left: 1vw;
-  font-size: 1.1vw;
-  margin-left: 1vw;
-  margin-bottom: 1vw;
+    color: #444;
+    font-size: 1.1vw;
+    margin-left: 3.8vw;
+    margin-bottom: 3vw;
+    padding-top: 2vh;
+}
+.competitionImage{
+      height: auto;
+    width: 24vw;
+    margin-top: 17.5vh;
 }
 .ae{
   margin-top: 50px;
@@ -588,10 +608,11 @@ ul, ol {
     margin-bottom: 10px;
 }
 .affix {
-      padding-bottom: 15px;
+      padding-bottom: 7px;
       top: 0;
       width: 100%;
       z-index: 9999 !important;
+    
       nav.navbar.shrink {
   min-height: 35px;
 }
@@ -606,7 +627,7 @@ nav.shrink .navbar-brand {
 nav.shrink .navbar-toggle {
   padding: 2px 2px;
   margin: 8px 0 8px 0;
-}
+}}
 .facultydata{
   height:300px;
   width:300px;
@@ -650,4 +671,14 @@ nav.shrink .navbar-toggle {
 }
 .ae{
   margin-top: 50px;
+}
+
+.aboutSlider{
+    margin-left: 3.5vw;
+    width: 37vw;
+}
+.theVision{
+  font-weight: 700;
+  margin-top: 0;
+  color: #333
 }
