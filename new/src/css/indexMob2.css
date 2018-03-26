@@ -76,6 +76,7 @@
     display: block;
     padding: 10px 46px;
 }
+
 .display{
     display: none;
 }
@@ -157,6 +158,13 @@
   color:#138D75  ;
   font-size:15px;
 }
+.aboutContent{
+    line-height: 10px;
+}
+.navmobview{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .teamid
 {
     width:65px;
@@ -181,6 +189,18 @@ font-size:08px;
 .hoverDiv {
   top: 35%;
   left: 75%;
+}
+.welcomeToMotorsport {
+    font-size: 13vw;
+    padding: 17vh 23vw 29vh 5vw;
+    height: 57%
+}
+.mainfrontimage {
+    height: 57vh !important;
+    width: 100% !important;
+}
+.headingsCar {
+    font-size: 8.5vw !important;
 }
 .TEAM
 {
@@ -262,5 +282,10 @@ font-size:08px;
 .facultyDetails
 {
   font-size:10px;
+}
+.mobviewcenter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 }

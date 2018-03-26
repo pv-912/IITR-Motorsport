@@ -83,7 +83,9 @@ a:focus{
 
 
 }
-
+.mainImage{
+  padding: 0
+}
 .headerLink li a:hover{
 	color: #ddd !important;
 	background-color: #000 !important;
@@ -151,7 +153,7 @@ a:focus{
 }
 .eventPad{
 	padding-top: 0vh;
-	padding-bottom: 7vh
+	padding-bottom: 30vh
 }
 .eventDiv{
 	text-align: center;
@@ -425,6 +427,7 @@ a:focus{
     top: 0vh;
     padding: 27vh 24vw 29vh 7vw;
     word-spacing: 2vw;
+    height: 100%;
 }
 .ElectrifyingRacing{
   z-index: 1;
@@ -442,6 +445,13 @@ a:focus{
   position: sticky;
   top:100px;
   left:150px;
+  padding: 15px;
+  
+
+}
+.mainfrontimage{
+  height: 100vh !important;
+  width:100% !important;
 }
 .goldspons {
     text-align: center;
@@ -486,7 +496,12 @@ a:focus{
     width: 24vw;
     margin-top: 17.5vh;
 }
-.ae{
+.compimage{
+  height: 20vw;
+  width: 100%;
+}
+.ae
+{
   margin-top: 50px;
 }
 .header
