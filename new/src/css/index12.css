@@ -348,13 +348,21 @@ a:focus{
   font-size:20px;
   padding-left:6px;
 }
-.department
+.department1
 {
+  
   color:orange;
   font-size: 30px;
-  margin-left: 40%;
+  text-align: center;
+  line-height: 6vh;
 }
 
+.department2
+{
+  color:orange;
+  font-size: 20px;
+  text-align: center;
+}
 
 .hoverIconFb {
   background-color: #3b579d;
