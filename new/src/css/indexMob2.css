@@ -80,8 +80,9 @@
     display: none;
 }
 .aboutHeading{
-    font-size: 9vw;
+    font-size: 10vw;
     padding-top: 0;
+    text-align: center;
 }
 .goldspons{
     font-size: 8vw;
@@ -121,11 +122,10 @@
     width: 205px;
     padding: 20px;
 }
-.aboutContent{
-    font-size: 5.2vw;
-line-height: 1.2;
-word-spacing: 0px;
-padding-left: 14px;
+.aboutSlider {
+    margin-left: 1vw;
+    width: 98vw;
+    text-align: center;
 }
 .personImage {
     opacity: 1;
@@ -210,16 +210,34 @@ font-size:08px;
     padding-top: 0vh;
 }
 .aboutContent {
-    font-size: 4.2vw;
-    padding-right: 5vw;
-    padding-bottom: 10vh;
-    word-spacing: 0;
+       font-size: 4.1vw;
+    padding-right: 0vw;
+    padding-bottom: 4vh;
+    word-spacing: normal;
     line-height: 21px;
     padding-top: 18px;
     padding-left: 3px;
 }
+.competitio {
+    font-size: 8.5vw;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
+}
+.compdetails {
+    font-size: 4.1vw;
+    margin-left: 1.5vw;
+    margin-bottom: 3vw;
+}
+.competitionImage {
+    display: none;
+}
 .display{
     display: none;
+}
+.theVision {
+    font-weight: 900;
+    text-align: center;
 }
 .teamFaculty
 {
