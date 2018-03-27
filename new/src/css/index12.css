@@ -417,6 +417,7 @@ a:focus{
     top: 0vh;
     padding: 27vh 24vw 29vh 7vw;
     word-spacing: 2vw;
+    height: 100%;
 }
 .ElectrifyingRacing{
   z-index: 1;
@@ -438,7 +439,10 @@ a:focus{
   
 
 }
-
+.mainfrontimage{
+  height: 100vh !important;
+  width:100% !important;
+}
 .goldspons {
     text-align: center;
     color: #826436;

@@ -158,6 +158,13 @@
   color:#138D75  ;
   font-size:15px;
 }
+.aboutContent{
+    line-height: 10px;
+}
+.navmobview{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .teamid
 {
     width:65px;

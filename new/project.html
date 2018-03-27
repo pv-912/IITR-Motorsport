@@ -11,11 +11,11 @@
 	    <meta name="keywords" content="">
 
 	    <meta name="author" content="IIT Roorkee MotorSports | IIT RMS">
-
+        <script type="text/javascript" src="cars_js.js"></script>
 	    <link rel="icon" href="src/img/logo.ico">
 	    <link href="https://fonts.googleapis.com/css?family=Allerta|Lato:300,400,700,900" rel="stylesheet">
 	    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>     
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	    <link href="src/css/bootstrap.min.css" rel="stylesheet">
 	    <link href="src/css/bootstrap-theme.min.css" rel="stylesheet">
@@ -51,8 +51,12 @@
 		        });
 		    });
 		});
+
+
+
+
 	</script>
-		<nav class="navbar navbar-default navbarAnimate">
+		<nav class="navbar navbar-default navbarAnimate sticky">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -65,13 +69,13 @@
 		    </div>
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		        <ul class="nav navbar-nav navbar-right headerLink">
-			        <li><a href="index.html">HOME</a></li>
-			        <li><a href="about.html">ABOUT US</a></li>
-			        <li class="active"><a href="project.html">CARS</a></li>
-			        <li><a href="team.html">TEAM</a></li>
-			        <li><a href="gallery.html">GALLERY</a></li>
-			        <li><a href="sponsors.html">SPONSORS</a></li>
-			        <li><a href="#contact" class="scrollTo">CONTACT US</a></li>
+			        <li><a href="index.html" class="navmobview">HOME</a></li>
+			        <li><a href="about.html" class="navmobview">ABOUT US</a></li>
+			        <li class="active navmobview"><a href="project.html">CARS</a></li>
+			        <li><a href="team.html" class="navmobview">TEAM</a></li>
+			        <li><a href="gallery.html" class="navmobview">GALLERY</a></li>
+			        <li><a href="sponsors.html" class="navmobview">SPONSORS</a></li>
+			        <li><a href="#contact" class="scrollTo navmobview">CONTACT US</a></li>
 			    </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -87,29 +91,44 @@
         <div id="thumbs">
           <a href="#cars2017">  <div class="thumb">
                 <div class="frame"><img src="src/img/gallery/img1.jpg" /></div>
-                <div class="thumb-content"><p>CAR 2017</p>Thumbnails allows any HTML content</div>
+                <div class="thumb-content"><p>SABER :<br> CAR 2017</p>(FORMULA GREEN'2017)</div>
                 <div style="clear:both;"></div>
             </div></a>
           <a href="#cars2015">  <div class="thumb">
                 <div class="frame"><img src="src/img/gallery/img2.jpg" /></div>
-                <div class="thumb-content"><p>Car 2015</p>Thumbnail style is customizable</div>
+                <div class="thumb-content"><p>BOLT :<br> Car 2015</p>(FSAE Australasia'2015)</div>
                 <div style="clear:both;"></div>
             </div></a>
              <a href="#cars2013"><div class="thumb">
                 <div class="frame"><img src="src/img/gallery/img3.jpg" /></div>
-                <div class="thumb-content"><p>Car 2013</p>Just a CSS tweak.</div>
+                <div class="thumb-content" onclick="cars()"><p>Car 2013</p>F1 Racetrack, UK </div>
                 <div style="clear:both;"></div>
             </div></a>
             <div class="thumb">
                 <div class="frame"><img src="src/img/gallery/img4.jpg" /></div>
-                <div class="thumb-content"><p>Car 2011</p>Built-in functions for the thumbnails</div>
+                <div class="thumb-content" onclick="cars()"><p>Car 2011</p></div>
                 <div style="clear:both;"></div>
             </div>
         </div>
         <!--clear above float:left elements. It is required if above #slider is styled as float:left. -->
         <div style="clear:both;height:0;"></div>
     </div>
+	
 
+	<script>
+		
+function cars() {
+    var car_2017 = document.getElementById("cars_2017");
+    var car_2015 = document.getElementById("cars_2015");
+    var car_2013 = document.getElementById("cars_2013");
+    var car_2011 = document.getElementById("cars_2011");
+    var toggle = document.getElementById("toggle");
+    if(car_2015.onfocus()){
+    	toggle.innerHTML = "hello..................................";
+    }
+        }
+
+	</script>
 		<!-- <div class="container-fluid mainGIF display">
 			<div id="sliderFrame">
 		        <div id="slider">
