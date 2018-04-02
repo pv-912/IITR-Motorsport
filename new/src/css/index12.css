@@ -11,27 +11,24 @@ body, html {
   justify-content:center;
   /*margin-bottom: 100vh*/
 	}
-
+/* width */
 ::-webkit-scrollbar {
-    width: 0px ; /*  remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible*/ 
-    height:3px;
+    width: 10px;
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
 ::-webkit-scrollbar-thumb {
-	width: 0px ;
-	border-radius:0px;
-	background-color: #53a374;
-	height:0px;
+    background: #888; 
 }
 
-::-webkit-scrollbar-button  {
-    height:0px;
-}
-
-
-::-webkit-scrollbar-corner  {
-    display:none;    
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
 a {
     outline: none !important;
