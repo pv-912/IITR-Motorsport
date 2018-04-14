@@ -5,7 +5,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    
+
 	    <meta name="description" content="">
 
 	    <meta name="keywords" content="">
@@ -26,7 +26,7 @@
 	</head>
 
 	<script>
-		
+
 		// $(document).ready(function() {
 		//     $(window).scroll( function(){
 		//         $('.hideme').each( function(i){
@@ -35,43 +35,19 @@
 		//             if( bottom_of_window > bottom_of_object ){
 		//                 $(this).animate({'opacity':'1','padding-top':'2.5vh'},700);
 		//             }
-		//         }); 
+		//         });
 		//         $('.navbarAnimate').each( function(i){
 		//             var bottom_of_object = $(this).position().top + $(this).outerHeight();
 		//             var bottom_of_window = $(window).scrollTop() + $(window).height();
 		//             if( bottom_of_window > bottom_of_object ){
 		//                 $(this).animate({'opacity':'1'},1000);
 		//             }
-		//         }); 
+		//         });
 		//     });
 		// });
 	</script>
 
-		<nav class="navbar navbar-default navbarAnimate">
-		  <div class="container-fluid">
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="#"><img src="src/img/logo.gif" class="logoHeader"></a>
-		    </div>
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		        <ul class="nav navbar-nav navbar-right headerLink ">
-			        <li><a href="index.html" class="navmobview">HOME</a></li>
-			        <li><a href="about.html" class="navmobview">ABOUT US</a></li>
-			        <li><a href="project.html" class="navmobview">CARS</a></li>
-			        <li><a href="team.html" class="navmobview">TEAM</a></li>
-			        <li><a href="gallery.html" class="navmobview">GALLERY</a></li>
-			        <li  class="active"><a href="sponsors.html" class="navmobview">SPONSORS</a></li>
-			        <li><a href="#contact"  class="scrollTo navmobview">CONTACT US</a></li>
-			    </ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-		</nav>
-		
+
 <script>
 	function focus1(){
 		var a= document.getElementById("recent");
@@ -90,7 +66,30 @@
 		b.style.color="#fff";
 	}
 </script>
-
+<nav class="navbar navbar-default navbarAnimate" data spy= "affix">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="src/img/logo.gif" class="logoHeader"></a>
+      </div>
+      <div class="collapse navbar-collapse staticnaavbar" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right headerLink ">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html" class ="navmobview" >ABOUT US</a></li>
+            <li><a href="project.html" class ="navmobview">CARS</a></li>
+            <li><a href="team.html" class= "navmobview">TEAM</a></li>
+            <li><a href="gallery.html" class=" navmobview">GALLERY</a></li>
+            <li  class="active navmobview"><a href="sponsors.html">SPONSORS</a></li>
+            <li><a href="#contact"  class="navmobview scrollTo">CONTACT US</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 		<div class="container-fluid" >
 			<p class="aboutHeading">OUR SPONSORS</p>
 			<div class="row">
@@ -103,7 +102,7 @@
 			</div>
 			<div class="row mobviewcenter">
 				<div class="tab-content">
-			    	<div role="tabpanel" class="tab-pane active " id="new">	
+			    	<div role="tabpanel" class="tab-pane active " id="new">
 						<div class="row" style="margin-top: 5vh;margin-bottom: 15vh">
 							<div class="col-sm-11 col-sm-offset-1">
 								<div class="row">
@@ -132,7 +131,7 @@
 							</div>
 						</div>
 					</div>
-			    	<div role="tabpanel" class="tab-pane" id="old">	
+			    	<div role="tabpanel" class="tab-pane" id="old">
 			    		<div class="row" style="margin-top: 5vh;margin-bottom: 15vh">
 							<div class="col-sm-11 col-sm-offset-1 mobviewcenter">
 								<p  class="goldspons">GOLD SPONSORS</p>
@@ -241,7 +240,7 @@
 						</div>
 			    	</div>
 				</div>
-			</div>	
+			</div>
 		</div>
 		<footer class="footer" id="contact">
 			<div class="container-fluid">
@@ -252,7 +251,7 @@
                         <p class="footerDetail"><i class="fa fa-envelope footerDetailIcon1"></i>EMAIL : iitrms.iitr@gmail.com</p>
                     </div>
                     <div class="col-sm-3">
-						 
+
 					</div>
 				</div>
                 <div class="row">
@@ -261,15 +260,15 @@
                 	</div>
                 	<div class="col-sm-3">
                 		<div class="row">
-						 	<i class="fa fa-facebook footerSocialIcon" ></i>
-						 	<i class="fa fa-linkedin footerSocialIcon"></i>
-						 	<i class="fa fa-twitter  footerSocialIcon"></i>
-						 	<i class="fa fa-instagram footerSocialIcon"></i>
+									<a href="https://www.facebook.com/iitrms.in/" target="_blank"><i class="fa fa-facebook footerSocialIcon" ></i></a>
+									<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fiitroorkeemotorsportsteam%2F&h=ATM5BKop9CBbx8iKrXO6uXWOAZlYSC4XE9vXec2-DbFECfr5L7HynvBrMewSrBTqgRha1DC7OmjCUy3oQaD38k_dBM9g-k_w4xDA6I95nD4kBQ"  target="_blank"><i class="fa fa-linkedin footerSocialIcon"></i></a>
+									<a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fiitrms_iitr&h=ATM8JDpGH7RfYerxvDzOZ73yD9u3PrhsmTLexZ6Dn7cWzUU459y2jU_fB0nSe9Zmv4XSXHQ4gX8XR6yuMNswhwvso5dNxbs8hn-IsY8mqSEJ8g"  target="_blank"><i class="fa fa-twitter  footerSocialIcon"></i></a>
+						 	    	<a href="https://www.instagram.com/iitrms/?hl=en" target="_blank"><i class="fa fa-instagram footerSocialIcon"></i>
 					 	</div>
                 	</div>
                 </div>
-                       
-					
+
+
 				</div>
 			</div>
 		</footer>
