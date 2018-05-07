@@ -80,7 +80,7 @@
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
-	<div id="sliderFrame" style="margin-top: 5vh;margin-bottom: 5vh">
+	<div id="sliderFrame" style="margin-top: 10vh;margin-bottom: 5vh">
         <div id="slider">
             <a href="#cars2017"><img src="works/hullo-81.jpg" /></a>
             <a href="#cars2015"><b data-src="src/img/gallery/pic5.jpg"></b></a>
@@ -127,6 +127,46 @@ function cars() {
     	toggle.innerHTML = "hello..................................";
     }
         }
+				$(document).ready(function(){
+				    $('a[href = "#cars2017"]').click(function(){
+						$(".c17").show();
+				    $(".c15").hide();
+						$(".c13").hide();
+
+				    });
+
+				});
+
+				$(document).ready(function(){
+						$('a[href = "#cars2015"]').click(function(){
+						$(".c17").hide();
+						$(".c15").show();
+						$(".c13").hide();
+
+						});
+
+				});
+
+				$(document).ready(function(){
+				    $('a[href = "#cars2013"]').click(function(){
+						$(".c17").hide();
+				    $(".c15").hide();
+						$(".c13").show();
+
+				    });
+
+				});
+
+				$(document).ready(function(){
+						$('a[href = "#cars2011"]').click(function(){
+						$(".c17").hide();
+						$(".c15").hide();
+						$(".c13").hide();
+
+						});
+
+				});
+
 
 
 	</script>
@@ -148,9 +188,8 @@ function cars() {
 		    </div>
 		</div>
 		 -->
-		 <div class="container" id="cars2017">
-
-
+     <span class="anchor c17" id="cars2017"><br><br>
+		 <div class="container">
 		 		<div class="container">
 		 				<div class="row">
 		 						<div class="col-lg-12">
@@ -222,8 +261,10 @@ function cars() {
 		 				</div>
 		 		</div>
 		 </div>
+</span>
 
-		 <div class="container" id="cars2015">
+		<span class="anchor c15" id="cars2015"><br>
+		 <div class="container" >
 							 <div class="container-fluid">
 						 <div class="row">
 								 <div class="col-lg-12">
@@ -285,7 +326,10 @@ function cars() {
 						 </div>
 				 </div>
 		 </div>
-		 <div class="container" id="cars2013">
+	 </span>
+
+		 <span class="anchor c13" id="cars2013"><br><br>
+		 <div class="container">
 		      <div class="container">
 		         <div class="row">
 		             <div class="col-lg-12">
@@ -327,6 +371,7 @@ function cars() {
 		         </div>
 		     </div>
 		 </div>
+	 </span>
 
 		<footer class="footer" id="contact">
 			<div class="container-fluid">

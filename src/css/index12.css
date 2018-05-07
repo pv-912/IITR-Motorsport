@@ -14,7 +14,7 @@ body, html {
 
 ::-webkit-scrollbar {
     width: 0px ; /*  remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible*/ 
+    background: transparent;  /* optional: just make scrollbar invisible*/
     height:3px;
 }
 
@@ -31,11 +31,11 @@ body, html {
 
 
 ::-webkit-scrollbar-corner  {
-    display:none;    
+    display:none;
 }
 a {
     outline: none !important;
-    text-decoration: none !important;  
+    text-decoration: none !important;
 }
 a:focus{
 	border: none;
@@ -57,7 +57,7 @@ a:focus{
 	padding-top: 0px
 }
 .mainSliderImage{
-  
+
 }
 .logoHeader{
 	width: 13vw;
@@ -149,7 +149,7 @@ a:focus{
 }
 .rightBorder{
 	border-right: 1px solid #888;
-	
+
 }
 .eventPad{
 	padding-top: 0vh;
@@ -221,7 +221,7 @@ a:focus{
     .sideIcons {
         left:93%;
     }
-}	
+}
 @media only screen and (max-width: 720px) {
 	.sideIcons {
         left:177%;
@@ -258,13 +258,13 @@ a:focus{
 
 .aboutHeading {
     font-size: 4vw;
-    font-weight: 900; 
+    font-weight: 900;
     padding-left: 3.5vw;
     padding-top: 5vh;
         color: #333;
 }
 .aboutContent{
-	   font-size: 1vw;   
+	   font-size: 1vw;
     color: #444;
     padding-right: 5vw;
     word-spacing: 3px;
@@ -294,7 +294,7 @@ a:focus{
         background-color: #fff;
         display: inline;
     }
-    
+
     .new_old_sponsors{
         margin-left: 8%;
         list-style-type: none;
@@ -309,7 +309,7 @@ a:focus{
     /*width: 100%;*/
     text-align: center;
 }
-	
+
 .personImage {
   opacity: 1;
   display: block;
@@ -344,7 +344,7 @@ a:focus{
 .teamid
 {
 	width: 165px;
-  padding:0px;  
+  padding:0px;
 }
 .teamname
 {
@@ -354,7 +354,7 @@ a:focus{
 }
 .department1
 {
-  
+
   color:orange;
   font-size: 30px;
   text-align: center;
@@ -436,7 +436,7 @@ a:focus{
   top:100px;
   left:150px;
   padding: 15px;
-  
+
 
 }
 .mainfrontimage{
@@ -498,7 +498,7 @@ a:focus{
 {
   position:sticky;
   top:0px;
-  z-index:1; 
+  z-index:1;
 }
 .twoline
 {
@@ -543,7 +543,7 @@ a:focus{
 }
 .mar-b-30 {
     margin-bottom: 30px;
-} 
+}
 
 #portfoliolist .portfolio {
     -webkit-box-sizing: border-box;
@@ -625,7 +625,7 @@ ul, ol {
       top: 0;
       width: 100%;
       z-index: 9999 !important;
-    
+
       nav.navbar.shrink {
   min-height: 35px;
 }
@@ -662,7 +662,7 @@ nav.shrink .navbar-toggle {
     word-spacing: 2vw;
 }
 .projectSlider{
-  
+
 }
 .downloadBrochureButton{
   margin-top: -21vh;
@@ -697,4 +697,9 @@ nav.shrink .navbar-toggle {
   font-weight: 700;
   margin-top: 0;
   color: #333
+}
+anchor{
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
 }
