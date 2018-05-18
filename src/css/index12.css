@@ -8,7 +8,7 @@ body, html {
 	letter-spacing: 0.3px;
 	color: black ;
     align-items:center;
-  justify-content:center;
+  justify-content-content:center;
   /*margin-bottom: 100vh*/
 	}
 
@@ -246,8 +246,8 @@ a:focus{
     background-color: #007bb6;
     min-width: 40px;
     color: #fff;
-    text-align:
-    center;padding: 8px 0
+    text-align:center;
+    padding: 8px 0;
 }
 .twitter{
     background-color: #1da1f2;min-width: 40px;color: #fff;text-align: center;padding: 8px 0
