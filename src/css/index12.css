@@ -454,7 +454,7 @@ background-color: #000;
 
 }
 .mainfrontimage{
-  height: 933px !important;
+  height:750px !important;
   width:100% !important;
  opacity:0.6;
 }
@@ -709,13 +709,13 @@ nav.shrink .navbar-toggle {
   margin-top: 0;
   color: #333
 }
-.center
+.side
 {
   position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 55%;
+    left:28%;
     transform: translate(-50%, -50%);
-   font-size:80px;
+   font-size:85px;
     font-weight: 900;
     opacity: 0.6;
    word-spacing: 2vw;
