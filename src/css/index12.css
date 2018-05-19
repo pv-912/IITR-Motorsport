@@ -53,9 +53,10 @@ a:focus{
 .navbar-default{
 	background-color: #fff ;
 	background-image: none ;
-	box-shadow: none ;
+	box-shadow: 1px 2px 20px grey ;
 	border-color: #fff ;
 	padding-top: 0px
+
 }
 .mainSliderImage{
 
@@ -64,12 +65,13 @@ a:focus{
 	width: 13vw;
 	height: auto;
 	margin-left: 28%;
-  margin-top: -1vh
+  margin-top: -1.5vh
 }
 
 .headerLink {
 	padding-right: 2vw;
-	margin-top: 20px
+	margin-top: 2vh;
+
 }
 .headerLink li a{
 	font-weight: 700;
@@ -131,6 +133,7 @@ background-color: #000;
 .readMoreMainButton{
 	margin-top: 10vh;
 	text-align: center;
+       	
 }
 .readMoreMainButton a{
     background-color: #ff3333;
@@ -140,6 +143,12 @@ background-color: #000;
     font-size: 1.3vw;
     font-weight: 700;
     cursor: pointer;
+   
+}
+.readMoreMainButton a:hover{
+    box-sizing: border-box ;
+    box-shadow: 3px 3px 20px grey;
+    
 }
 .hideme{
 	opacity: 1;
