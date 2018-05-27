@@ -271,7 +271,7 @@ background-color: #000;
 /* about page*/
 
 .aboutHeading {
-    font-size: 4vw;
+    font-size: 2.5vw;
     font-weight: 900;
     padding-left: 3.5vw;
     padding-top: 5vh;
@@ -676,7 +676,7 @@ nav.shrink .navbar-toggle {
 
 }
 .downloadBrochureButton{
-  margin-top: -21vh;
+    margin-top: -21vh;
     text-align: center;
     margin-left: -2vw;
 }
@@ -705,17 +705,16 @@ nav.shrink .navbar-toggle {
     width: 37vw;
 }
 .theVision{
-  font-weight: 700;
+  font-weight: 900;
   margin-top: 0;
   color: #333
 }
 .center
 {
   position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-   font-size:80px;
+    top: 30%;
+    left: 9.8%;
+   font-size:7vw;
     font-weight: 900;
     opacity: 0.6;
    word-spacing: 2vw;
@@ -733,10 +732,134 @@ anchor{
   left: 0;
   z-index: 9999;
   width: 100%;
-  height: 80px;
+
 }
-hr { 
+hr {
     margin-top: 50px;
     border-style: inset;
     border-width: 1px;
+}
+
+.sliderx{
+  
+  height: 20vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+  transform-style: preserve-3d;
+
+  
+}
+.sliderx img{
+  height: 30vh;
+  width: 40vw;
+}
+.slidex0{
+  
+  display: inline;
+  margin-right: 1vw;
+  animation-name: slidex0;
+  animation-play-state: paused;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(1,1,2,.5);
+  animation-fill-mode: forwards;
+    
+}
+@keyframes slidex0 {
+  from{transform:scale(.9); opacity: .6; right: 70vw;}
+  to{  opacity: 0; right: 110vw;}
+}
+
+.slidex1{
+  
+  display: inline;
+  margin-right: 1vw;
+  animation-name: slidex1;
+  animation-play-state: paused;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(1,1,2,.5);
+  animation-fill-mode: forwards;
+  transition: transform 3s;
+    
+}
+@keyframes slidex1 {
+  from{transform:scale(1.3); opacity: 1; right: 25vw;}
+  to{transform: scale(.9);  opacity: .6; right: 71vw;}
+}
+
+.slidex3{
+  
+  margin-left: 1vw;
+  display: inline;
+  animation-name: slidex3;
+  animation-play-state: paused;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(1,1,2,.5);
+  animation-fill-mode: forwards;
+
+}
+@keyframes slidex3{
+from{right: -50vw; opacity:0;}
+to{transform: scale(.9); opacity: .6; right:-18vw; }
 } 
+.slidex2{
+  
+  display: inline;
+  animation-name: slidex2;
+  animation-play-state: paused;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(1,1,2,.5);
+  animation-fill-mode: forwards;
+
+}
+@keyframes slidex2{
+from{transform: scale(.9); opacity:0.6; right: -19vw;}
+to{transform: scale(1.3) ; opacity: 1; right: 27vw;}
+}
+
+button{outline: none;}
+.sliderbtn{
+  height: 9vh;
+  width: 9vw;
+position: absolute;
+right: 0px;
+background-color: rgba(100,100,100,.3);
+box-sizing: border-box;
+border-radius: 10px;
+border: none;
+transition: all 1s;
+margin-top: 11vh;
+outline: none;
+box-shadow: 1px 1px 3px;
+}
+.sliderbtn:hover{
+  background-color: rgba(100,100,100,.4);
+  box-shadow: 1px 1px 10px black;
+}
+.sliderbtn: focus{
+  background-color: rgba(100,100,100,.6);
+ box-shadow: 1px 1px 20px black;
+  text-decoration: none;
+  outline: 0;
+
+}
+.sliderbtn: active {
+    background-color: rgba(100,100,100,.6);
+    box-shadow: 1px 1px 20px black;  
+    text-decoration: none;
+    outline: none;
+}
+
+
+@media screen and (orientation : landscape) {
+    .sliderbtn{width: 5vw;}
+    .fixed-nav-bar{height: 11.5vh;}
+}
+@media screen and (orientation: portrait){
+  .fixed-nav-bar{height: 7vh;}
+}
+
+@media screen and (max-width: 500px){
+.sliderx{display: block;}
+.desktop_view{display: none;}
+
+}
