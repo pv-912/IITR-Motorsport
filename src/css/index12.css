@@ -451,7 +451,6 @@ background-color: #000;
   left:150px;
   padding: 15px;
 
-
 }
 .mainfrontimage{
   height:750px !important;
@@ -740,3 +739,12 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
+.recent-work
+{
+    color:#000;
+	font-size: 5vw;
+	margin-top: 2vh;
+	font-weight: 700;
+	font-family: 'Lato', snas-serif;
+    text-align:center;
+ }
