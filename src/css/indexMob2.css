@@ -104,10 +104,17 @@
 {
   margin:auto;
 }
+
 .sponsorsImage{
         height: 100px;
     width: 225px;
     padding: 20px;
+}
+.iitrlogo
+{
+    height:200px;
+    width:200px;
+    padding:20px;
 }
 .goldsponsorsImage{
         height: 120px;
@@ -120,11 +127,13 @@
     padding: 20px;
 
 }
+
 .bronzesponsorsImage{
         height: 80px;
     width: 205px;
     padding: 20px;
 }
+
 .aboutSlider {
     margin-left: 1vw;
     width: 98vw;
@@ -220,11 +229,6 @@ font-size:08px;
 .goldspons{
     font-size: 8vw;
     margin: 53px;
-}
-.sponsorsImage {
-    height: 100px;
-    width: 225px;
-    padding: 20px;
 }
 .aboutHeading {
     font-size: 8vw;
