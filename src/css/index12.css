@@ -408,6 +408,7 @@ background-color: #000;
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
+
 .AEsponsors
 {
   margin-left:120%;
@@ -415,6 +416,11 @@ background-color: #000;
 .sponsorsImage{
         height: 110px;
     width: 250px;
+}
+.iitrlogo
+{
+    height:220px;
+    width:220px;
 }
 .goldsponsorsImage{
         height: 150px;
@@ -429,6 +435,10 @@ background-color: #000;
     width: 210px;
 }
 
+.mrf,.sw,.gl
+{
+    margin-top:45px;
+}
 .display{
     display: block;
 }
