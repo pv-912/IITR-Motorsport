@@ -408,6 +408,7 @@ background-color: #000;
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
 }
+
 .AEsponsors
 {
   margin-left:120%;
@@ -415,6 +416,11 @@ background-color: #000;
 .sponsorsImage{
         height: 110px;
     width: 250px;
+}
+.iitrlogo
+{
+    height:220px;
+    width:220px;
 }
 .goldsponsorsImage{
         height: 150px;
@@ -429,6 +435,10 @@ background-color: #000;
     width: 210px;
 }
 
+.mrf,.sw,.gl
+{
+    margin-top:45px;
+}
 .display{
     display: block;
 }
@@ -449,6 +459,7 @@ background-color: #000;
   position: sticky;
   top:100px;
   left:150px;
+<<<<<<< HEAD
 }
 .home_nav{
 	padding: 11px;
@@ -467,6 +478,10 @@ background-color: #000;
 }
 .team_nav{
 	padding: 14px;
+=======
+  padding: 15px;
+
+>>>>>>> 76d6f2732c7770b558e7548b54f9b2bc62c6dce6
 }
 .mainfrontimage{
   height:750px !important;
@@ -759,6 +774,7 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
+<<<<<<< HEAD
 
 .sliderx{
   
@@ -888,3 +904,14 @@ box-shadow: 1px 1px 3px;
 	color: white;
 	background-color: rgba(0,0,0,.5);
 }
+=======
+.recent-work
+{
+    color:#000;
+	font-size: 5vw;
+	margin-top: 2vh;
+	font-weight: 700;
+	font-family: 'Lato', snas-serif;
+    text-align:center;
+ }
+>>>>>>> 76d6f2732c7770b558e7548b54f9b2bc62c6dce6

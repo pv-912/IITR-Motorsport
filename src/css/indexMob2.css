@@ -16,14 +16,16 @@
 .aboutUsHeading {
     font-size: 9.5vw;
     margin-top: 0vh;
+    margin-bottom: 0vh;
     padding-left: 10vw;
+    text-align:center;
 }    
 .aboutUsTextMain {
     font-size: 3.6vw;
     padding-left: 10vw;
     padding-right: 7vw;
     line-height: 26px;
-    margin-top: 0vh;
+    margin-top:0vh;
     word-spacing: -.5vw
 }
 .readMoreMainButton a {
@@ -102,10 +104,17 @@
 {
   margin:auto;
 }
+
 .sponsorsImage{
         height: 100px;
     width: 225px;
     padding: 20px;
+}
+.iitrlogo
+{
+    height:200px;
+    width:200px;
+    padding:20px;
 }
 .goldsponsorsImage{
         height: 120px;
@@ -118,11 +127,13 @@
     padding: 20px;
 
 }
+
 .bronzesponsorsImage{
         height: 80px;
     width: 205px;
     padding: 20px;
 }
+
 .aboutSlider {
     margin-left: 1vw;
     width: 98vw;
@@ -219,11 +230,6 @@ font-size:08px;
     font-size: 8vw;
     margin: 53px;
 }
-.sponsorsImage {
-    height: 100px;
-    width: 225px;
-    padding: 20px;
-}
 .aboutHeading {
     font-size: 8vw;
     padding-left: 0;
@@ -288,6 +294,38 @@ font-size:08px;
 .facultyDetails
 {
   font-size:10px;
+}
+::-webkit-scrollbar {
+    width:5px ; /*  remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible*/
+    height:3px;
+}
+
+::-webkit-scrollbar-thumb {
+	width: 0px ;
+	border-radius:0px;
+	background-color: #53a374;
+	height:0px;
+}
+
+::-webkit-scrollbar-button  {
+    height:0px;
+}
+::-webkit-scrollbar-corner  {
+    display:none;
+}
+.recent-work
+{
+	font-size: 8vw;
+	margin-top: 2vh;
+	font-weight: 700;
+	font-family: 'Lato', snas-serif;
+ }
+ .staticnaavbar{
+    background-color:rgba(255,255,255,1);
+}
+.fixed-nav-bar {
+  height: 40px;
 }
 .mobviewcenter{
     display: flex;
