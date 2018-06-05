@@ -327,6 +327,15 @@ font-size:08px;
 .fixed-nav-bar {
   height: 40px;
 }
+.facebook
+{ 
+    display:none;
+}
+.mobile_view
+{
+        margin-top: 15px;
+        margin-bottom: 15px;
+}
 .mobviewcenter{
     display: flex;
     align-items: center;
