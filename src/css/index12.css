@@ -922,8 +922,10 @@ box-shadow: 1px 1px 3px;
 	box-shadow:0px 0px 7px white;
 	text-shadow: 2px 2px 1px black;
 }
-
-
+.navbar-header {
+        position: relative;
+            z-index:1;
+        }
 .recent-work
 {
     color:#000;
