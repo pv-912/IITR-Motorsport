@@ -276,6 +276,12 @@ font-size:08px;
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+.side
+{
+  font-size:35px;
+  left:48%;
+  top:60%;
+}
 .headingsCar{
   font-size:  7.5vw;
 }

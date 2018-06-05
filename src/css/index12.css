@@ -449,12 +449,27 @@ background-color: #000;
   position: sticky;
   top:100px;
   left:150px;
-  padding: 15px;
-
-
+}
+.home_nav{
+	padding: 11px;
+}
+.about_nav{
+	padding: 14px;
+}
+.car_nav{
+	padding: 11px;
+}
+.gallery_nav{
+	padding: 12px;
+}
+.sponsor_nav{
+	padding: 14px;
+}
+.team_nav{
+	padding: 14px;
 }
 .mainfrontimage{
-  height: 933px !important;
+  height:750px !important;
   width:100% !important;
  opacity:0.6;
 }
@@ -709,12 +724,17 @@ nav.shrink .navbar-toggle {
   margin-top: 0;
   color: #333
 }
-.center
+.side
 {
   position: absolute;
+
     top: 30%;
     left: 9.8%;
    font-size:7vw;
+    top: 55%;
+    left:28%;
+    transform: translate(-50%, -50%);
+   font-size:85px;
     font-weight: 900;
     opacity: 0.6;
    word-spacing: 2vw;
@@ -852,7 +872,7 @@ box-shadow: 1px 1px 3px;
 
 @media screen and (orientation : landscape) {
     .sliderbtn{width: 5vw;}
-    .fixed-nav-bar{height: 11.5vh;}
+    .fixed-nav-bar{height: 5.5vw;}
 }
 @media screen and (orientation: portrait){
   .fixed-nav-bar{height: 7vh;}
@@ -862,4 +882,9 @@ box-shadow: 1px 1px 3px;
 .sliderx{display: block;}
 .desktop_view{display: none;}
 
+}
+.carousel-caption{
+	z-index: 100;
+	color: white;
+	background-color: rgba(0,0,0,.5);
 }
