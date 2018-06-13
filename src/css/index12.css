@@ -770,29 +770,36 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
-
+.inner{
+  position: relative;
+}
 
 .sliderx{
   
   height: 20vh;
   overflow-x: auto;
-  overflow-y: hidden;
+  display: inline;
+  margin-bottom: 10px;
+  margin-top: 30px;
   transform-style: preserve-3d;
-
+  padding-top: 10px;
+  padding-bottom: 10px;
   
 }
 .sliderx img{
-  height: 30vh;
+  height: 20vh;
   width: 40vw;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .slidex0{
-  
+  position: absolute;
   display: inline;
   margin-right: 1vw;
   animation-name: slidex0;
   animation-play-state: paused;
   animation-duration: 3s;
-  animation-timing-function: cubic-bezier(1,1,2,.5);
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
     
 }
@@ -802,13 +809,13 @@ hr {
 }
 
 .slidex1{
-  
+  position: absolute;
   display: inline;
   margin-right: 1vw;
   animation-name: slidex1;
   animation-play-state: paused;
   animation-duration: 3s;
-  animation-timing-function: cubic-bezier(1,1,2,.5);
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
   transition: transform 3s;
     
@@ -819,13 +826,13 @@ hr {
 }
 
 .slidex3{
-  
+  position: absolute;
   margin-left: 1vw;
   display: inline;
   animation-name: slidex3;
   animation-play-state: paused;
   animation-duration: 3s;
-  animation-timing-function: cubic-bezier(1,1,2,.5);
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
 
 }
@@ -834,12 +841,12 @@ from{right: -50vw; opacity:0;}
 to{transform: scale(.9); opacity: .6; right:-18vw; }
 } 
 .slidex2{
-  
+  position: absolute;
   display: inline;
   animation-name: slidex2;
   animation-play-state: paused;
   animation-duration: 3s;
-  animation-timing-function: cubic-bezier(1,1,2,.5);
+  animation-timing-function: ease;
   animation-fill-mode: forwards;
 
 }
@@ -849,38 +856,42 @@ to{transform: scale(1.3) ; opacity: 1; right: 27vw;}
 }
 
 button{outline: none;}
-.sliderbtn{
-  height: 9vh;
+.rbtn{
+  height: 6vh;
   width: 9vw;
 position: absolute;
-right: 0px;
-background-color: rgba(100,100,100,.3);
+right: -10px;
+color: white;
+background: linear-gradient(rgba(100,100,100,.7),rgba(0,0,0,1),rgba(0,0,0,.7));
 box-sizing: border-box;
 border-radius: 10px;
 border: none;
 transition: all 1s;
-margin-top: 11vh;
+margin-top: -20vh;
+font-weight: 500;
 outline: none;
-box-shadow: 1px 1px 3px;
-}
-.sliderbtn:hover{
-  background-color: rgba(100,100,100,.4);
-  box-shadow: 1px 1px 10px black;
-}
-.sliderbtn: focus{
-  background-color: rgba(100,100,100,.6);
- box-shadow: 1px 1px 20px black;
-  text-decoration: none;
-  outline: 0;
-
-}
-.sliderbtn: active {
-    background-color: rgba(100,100,100,.6);
-    box-shadow: 1px 1px 20px black;  
-    text-decoration: none;
-    outline: none;
 }
 
+.lbtn{
+  height: 6vh;
+  width: 9vw;
+position: absolute;
+left: -10px;
+color: white;
+background: linear-gradient(rgba(100,100,100,.7),rgba(0,0,0,1),rgba(0,0,0,.7));
+box-sizing: border-box;
+border-radius: 10px;
+border: none;
+transition: all 1s;
+margin-top: -20vh;
+font-weight: 500;
+outline: none;
+transform: rotateY(180deg);
+}
+
+@media screen and (orientation : landscape) {
+    .rbtn{width: 5vw;}
+}
 
 @media screen and (orientation : landscape) {
     .sliderbtn{width: 5vw;}
@@ -896,10 +907,15 @@ box-shadow: 1px 1px 3px;
 	margin-top: -7vh;
 }
 
+#sliderFrame_mobile{display: none;}
+
 @media screen and (max-width: 500px){
 .sliderx{display: block;}
 .desktop_view{display: none;}
 .mobile_view{display: block;}
+#sliderFrame{display: none;}
+#sliderFrame_mobile{display: block;}
+
 
 }
 .cap{
@@ -937,3 +953,31 @@ box-shadow: 1px 1px 3px;
     padding-top: 1.5vh;
  }
 
+.sb_slider-caption{
+  position: absolute;
+  color: white;
+  font-weight: 800;
+  bottom: 9px;
+  left: 28%;
+  padding: 10px;
+  width: 46%;
+  justify-content: center;
+  text-align: center;
+  font-size: 140%;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 10px black;
+  text-shadow: 4px 2px 20px black;
+  background: linear-gradient(transparent,black,transparent);
+  text-decoration: none;
+  animation-name:captionfade;
+  animation-duration: 1s;
+
+}
+.sb_slider-caption a{text-decoration: none;
+color: white;}
+
+@keyframes captionfade{
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
