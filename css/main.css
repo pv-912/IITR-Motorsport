@@ -133,7 +133,7 @@ input {
   }
 
   input:focus + label .burger,
-  label:hover .burger {
+  {
     opacity: .75;
   }
 
@@ -601,7 +601,7 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     text-align: center;
   }
   .project_head{
-      margin-bottom: 10vh;
+      margin-bottom: 5vh;
   }
   .faculty_speak a{
     text-decoration: none;
@@ -691,7 +691,7 @@ img.profile_pic {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top:20vh;
+  margin-top:10vh;
   padding: 0% 5%;
 }
 .faculty_speak p{
@@ -860,7 +860,7 @@ img.profile_pic {
   }
 }
 .product img{
-  height: 400px;
+  height:auto;
   width: 100%;
 }
 .textshow{
