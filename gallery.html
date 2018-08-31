@@ -1,453 +1,1177 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-        <title>IIT Roorkee MotorSports | IIT RMS</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/foundation/6.1.1/foundation.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
-        <meta name="description" content="">
-
-        <meta name="keywords" content="">
-
-        <meta name="author" content="IIT Roorkee MotorSports | IIT RMS">
-
-        <link rel="icon" href="src/img/logo.ico">
-        <link href="https://fonts.googleapis.com/css?family=Allerta|Lato:300,400,700,900" rel="stylesheet">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <link href="src/css/bootstrap.min.css" rel="stylesheet">
-        <link href="src/css/bootstrap-theme.min.css" rel="stylesheet">
-        <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
-        <script src="src/js/bootstrap.min.js"></script>
-        <script src="src/js/animation.js"></script>
-        <link href="src/css/index12.css" rel="stylesheet">
-        <!-- <link href="src/css/indexTab.css" rel="stylesheet"> -->
-        <link href="src/css/indexMob2.css" rel="stylesheet">
-
-         <link rel="stylesheet" href="css/flexslider.css" />
-    <link href="assets/bxslider/jquery.bxslider.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/animate.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/owlcarousel/owl.carousel.css">
-
-    <link rel="stylesheet" type="text/css" href="css/component.css">
-    <link href="css/style2.css" rel="stylesheet">
-    <link href="css/style-responsive.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    </head>
-
+    <link href="img/logo.ico" rel="icon">
+    <title>IIT Roorkee MotorSports | IIT RMS</title>
+</head>
 <body>
-  <nav class="navbar navbar-default navbarAnimate" data-spy="affix">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html"><img src="src/img/logo.gif" class="logoHeader"></a>
-			</div>
-      <div class="collapse navbar-collapse staticnaavbar gallery_nav" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right  headerLink">
-            <li><a  href="index.html">HOME</a></li>
-            <li><a href="about.html" class="navmobview">ABOUT US</a></li>
-            <li><a href="project.html" class="navmobview">CARS</a></li>
-            <li><a href="team.html" class="navmobview">TEAM</a></li>
-            <li class = "active navmobview"><a href="gallery.html" class="navmobview">GALLERY</a></li>
-            <li><a href="sponsors.html" class="navmobview">SPONSORS</a></li>
-            <li><a href="#contact" class="navmobview scrollTo">CONTACT US</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav><br><br><br>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <ul id="filters" class="clearfix">
-                        <li><span class="filter active" data-filter="c2017">2017</span></li>
-                        <li><span class="filter" data-filter="c2015">2015</span></li>
-                        <li><span class="filter" data-filter="c2013">2013</span></li>
-                        <li><span class="filter" data-filter="c2011">2011</span></li>
-                         <li><span class="filter" data-filter="videos">Videos</span></li>
-                        <li><span class="filter" data-filter="others">Media</span></li>
-                    </ul>
+    <div class="container-fluid menu_main">
+
+        <!-- <menu starts here -->
+            <input type="checkbox" id="navcheck" role="button" title="menu">
+            <label for="navcheck" aria-hidden="true" title="menu">
+                <span class="burger">
+                    <span class="bar">
+                        <span class="visuallyhidden">Menu</span>
+                    </span>
+                    <span class="menu_menu">Menu</span>
+                </span>
+            </label>
+        <nav id="menu">
+            <a href="index.html#top">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="projects.html">Cars</a>
+            <a href="index.html#team">Team</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="sponsor.html">Sponsors</a>
+            <a href="https://iitrms.home.blog/">Blog</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <!-- <menu ends here -->
+            <!-- logo -->
+        <a href="index.html"><div class="logo"><img src="img/logo.png"></a></div>
+        <a class="updates" title="iitrms updates" href="https://iitrms.home.blog/"><i class="fas fa-pen-nib"></i></a>
+            <!-- logo ends -->
+    </div>
+    <div class="sticky_social">
+        <div class="social_keys">
+            <a href="https://www.facebook.com/iitrms.in/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+        </div>
+        <div class="social_keys">
+            <a href="https://www.linkedin.com/company/iitroorkeemotorsports/" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+        <div class="social_keys">
+            <a href="https://twitter.com/iitrms_iitr" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+        </div>
+        <div class="social_keys">
+            <a href="https://www.instagram.com/iitrms/?hl=en" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        </div>
+        <div class="social_keys">
+            <a href="https://www.youtube.com/channel/UCX5M-zh5cSpROSOE2ciV1yQ"><i class="fab fa-youtube"></i> YouTube</a>
+        </div>
+    </div>
+
+<!-- sticky ends -->
+
+<!-- navbar ends -->
+
+
+
+    <!-- <gallery section starts here -->
+    <div class="container-fluid gallery">
+        <h2 class="text-center" style="color: grey;">Gallery</h2><br>
+        <div class="gallerymenu">
+            <ul class="nav nav-pills text-center" role="tablist" id="pills-first">
+                <li class="nav-item active">
+                    <a class="nav-link active" data-toggle="pill" href="#home">2017</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#menu1">2015</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#menu2">2013</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#menu3">2011</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#menu4">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#menu5">Media</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-12 tab-content"  data-aos="fade-in" data-aos-delay="100" data-aos-duration="1100" >
+            <div id="home" class="tab-pane active">
+                <!-- code runs here for gallery -->
+                <div class="row">
+                    <br><br>
+                    <div class="col-md-6 textshow">
+                        <a  href="#" data-toggle="modal" data-target="#20171">
+                            <div class="product">
+                                <img src="img/works/hullo-8.jpg" width="100%" height="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 textshow">
+                        <a  href="#" data-toggle="modal" data-target="#20172">
+                            <div class="product">
+                                <img src="img/img2017-copy.jpg" width="100%" height="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 textshow">
+                        <a  href="#" data-toggle="modal" data-target="#20173">
+                            <div class="product">
+                                <img src="img/gallery/hullo-11.jpg" width="100%" height="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 textshow">
+                        <a  href="#" data-toggle="modal" data-target="#20174">
+                            <div class="product">
+                                <img src="img/gallery/hullo-10.jpg" width="100%" height="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 textshow">
+                        <a  href="#" data-toggle="modal" data-target="#20175">
+                            <div class="product">
+                                <img src="img/gallery/hullo-4.jpg" width="100%" height="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 textshow">
+                        <a  href="#" data-toggle="modal" data-target="#20176">
+                            <div class="product">
+                                <img src="img/gallery/hullo-5.jpg" width="100%" height="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 textshow">
+                        <a  href="#" data-toggle="modal" data-target="#20177">
+                            <div class="product">
+                                <img src="img/gallery/hullo-6.jpg" width="100%" height="auto">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 textshow">
+                        <a  href="#" data-toggle="modal" data-target="#20178">
+                            <div class="product">
+                                <img src="img/gallery/hullo-7.jpg" width="100%" height="auto">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="menu1" class="tab-pane">
+                <!-- code runs here for gallery -->
+                <div class="container-fluid products">
+                    <div class="row">
+                        <br><br>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20151">
+                                <div class="product">
+                                    <img src="img/gallery/pic1.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20152">
+                                <div class="product">
+                                    <img src="img/gallery/pic2.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20153">
+                                <div class="product">
+                                    <img src="img/gallery/pic3.png" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20154">
+                                <div class="product">
+                                    <img src="img/gallery/pic4.png" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20155">
+                                <div class="product">
+                                    <img src="img/gallery/pic5.png" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20156">
+                                <div class="product">
+                                    <img src="img/gallery/pic6.png" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20157">
+                                <div class="product">
+                                    <img src="img/gallery/pic7.png" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20158">
+                                <div class="product">
+                                    <img src="img/gallery/pic8.png" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20159">
+                                <div class="product">
+                                    <img src="img/gallery/pic9.png" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#201510">
+                                <div class="product">
+                                    <img src="img/gallery/pic10.png" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#201511">
+                                <div class="product">
+                                    <img src="img/gallery/pic11.png" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#201512">
+                                <div class="product">
+                                    <img src="img/gallery/pic12.png" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#201513">
+                                <div class="product">
+                                    <img src="img/gallery/pic13.png" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#201514">
+                                <div class="product">
+                                    <img src="img/gallery/pic14.png" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu2" class="tab-pane">
+                <!-- code runs here for gallery -->
+                <div class="container-fluid products">
+                    <div class="row">
+                        <br><br>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20131">
+                                <div class="product">
+                                    <img src="img/gallery/pc2.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20132">
+                                <div class="product">
+                                    <img src="img/gallery/pc4.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20133">
+                                <div class="product">
+                                    <img src="img/gallery/pc5.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu3" class="tab-pane">
+                <!-- code runs here for gallery -->
+                <div class="container-fluid products">
+                    <div class="row">
+                        <br><br>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20111">
+                                <div class="product">
+                                    <img src="img/gallery/img1.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20112">
+                                <div class="product">
+                                    <img src="img/gallery/img2.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20113">
+                                <div class="product">
+                                    <img src="img/gallery/img6.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20114">
+                                <div class="product">
+                                    <img src="img/gallery/img4.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20115">
+                                <div class="product">
+                                    <img src="img/gallery/img7.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20116">
+                                <div class="product">
+                                    <img src="img/gallery/img8.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20117">
+                                <div class="product">
+                                    <img src="img/gallery/img9.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20118">
+                                <div class="product">
+                                    <img src="img/gallery/img10.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#20119">
+                                <div class="product">
+                                    <img src="img/gallery/img11.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#201110">
+                                <div class="product">
+                                    <img src="img/works/pic5.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu4" class="tab-pane">
+                <!-- code runs here for gallery -->
+                <div class="container-fluid products">
+                        <div class="row">
+                            <br><br>
+                            <div class="col-md-6 textshow">
+                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/Kxlt5N-kf5M?ecver=1" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-6 textshow">
+                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/7KjL-NHOCD0?ecver=1" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div id="menu5" class="tab-pane">
+                <!-- code runs here for gallery -->
+                <div class="container-fluid products">
+                    <div class="row">
+                        <br><br>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#media1">
+                                <div class="product">
+                                    <img src="img/gallery/img12.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#media2">
+                                <div class="product">
+                                    <img src="img/gallery/p1.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#media3">
+                                <div class="product">
+                                    <img src="img/gallery/p2.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#media4">
+                                <div class="product">
+                                    <img src="img/gallery/p4.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#media5">
+                                <div class="product">
+                                    <img src="img/gallery/img5.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#media6">
+                                <div class="product">
+                                    <img src="img/gallery/n1.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 textshow">
+                            <a  href="#" data-toggle="modal" data-target="#media7">
+                                <div class="product">
+                                    <img src="img/gallery/img6.jpg" width="100%" height="auto">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row mar-b-30">
-                <div id="portfoliolist">
-                    <div class="col-md-12">
+    </div>
 
-                        <div class="portfolio c2017" data-cat="c2017">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/hullo-8.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/hullo-8.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2017" data-cat="c2017">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/img2017.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="labeleft" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/img2017.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2017" data-cat="c2017">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/hullo-11.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/hullo-11.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2017" data-cat="c2017">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/hullo-10.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/hullo-10.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2017" data-cat="c2017">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/hullo-4.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/hullo-4.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2017" data-cat="c2017">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/hullo-5.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/hullo-5.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2017" data-cat="c2017">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/hullo-6.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/hullo-6.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2017" data-cat="c2017">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/hullo-7.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/hullo-7.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2015" data-cat="c2015">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pic1.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pic1.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2015" data-cat="c2015">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pic2.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pic2.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2015" data-cat="c2015">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pic3.png" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pic3.png" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2015" data-cat="c2015">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pic4.png" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pic4.png" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2015" data-cat="c2015">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pic5.png" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pic5.png" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2015" data-cat="c2015">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pic6.png" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pic6.png" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2015" data-cat="c2015">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pic7.png" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pic7.png" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2015" data-cat="c2015">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pic8.png" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pic8.png" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2015" data-cat="c2015">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pic9.png" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pic9.png" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2015" data-cat="c2015">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pic10.png" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pic10.png" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2015" data-cat="c2015">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pic11.png" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pic11.png" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2015" data-cat="c2015">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pic12.png" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pic12.png" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2015" data-cat="c2015">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pic13.png" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pic13.png" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2015" data-cat="c2015">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pic14.png" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pic14.png" alt="" /></div>
-                            </div>
-                        </div>
+<!-- footer starts here -->
+<div class="container-fluid footer" id="contact">
+        <div class="row footer_content">
+            <div class="col-md-3 text-justify">
+                <p><i class="fas fa-home"></i> Mechanical & Industrial Engineering Department, IIT Roorkee
+                247667 , Uttarakhand, India</p>
 
+                <p><i class="fas fa-mobile"></i> Mobile<br>Harshit Singh : +91-8650267812,<br> Aseem Kumar: +91-8658259288</p>
 
-
-                        <div class="portfolio c2013" data-cat="c2013">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pc2.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pc2.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2013" data-cat="c2013">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pc4.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pc4.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2013" data-cat="c2013">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/pc5.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/pc5.jpg" alt="" /></div>
-                            </div>
-                        </div>
-
-
-                        <div class="portfolio c2011" data-cat="c2011">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/img1.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/img1.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2011" data-cat="c2011">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/img2.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/img2.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2011" data-cat="c2011">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/img6.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/img6.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2011" data-cat="c2011">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/img4.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a> <a href="blog-detail.html" class="label bg-iit others" data-toggle="tooltip" data-placement="top" title="Details"><i class="fa fa-link"></i></a> <a href="#" class="label bg-iit others" data-toggle="tooltip" data-placement="right" title="Likes"><i class="fa fa-heart"></i></a></div><img src="src/img/gallery/img4.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2011" data-cat="c2011">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/img7.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/img7.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2011" data-cat="c2011">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/img8.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/img8.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2011" data-cat="c2011">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/img9.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/img9.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2011" data-cat="c2011">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/img10.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/img10.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio c2011" data-cat="c2011">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/img11.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/img11.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio videos" data-cat="videos">
-                            <div class="portfolio-wrapper">
-                                <iframe width="100%" height="175" src="https://www.youtube.com/embed/Kxlt5N-kf5M?ecver=1" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="portfolio videos" data-cat="videos">
-                            <div class="portfolio-wrapper">
-                                <iframe width="100%" height="175" src="https://www.youtube.com/embed/7KjL-NHOCD0?ecver=1" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="portfolio others" data-cat="others">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/new.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/img12.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio others" data-cat="others">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/p1.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/p1.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio others" data-cat="others">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/p2.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/p2.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio others" data-cat="others">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/p4.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/p4.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio others" data-cat="others">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/img5.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/img5.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio others" data-cat="others">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/n1.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/n1.jpg" alt="" /></div>
-                            </div>
-                        </div>
-                        <div class="portfolio others" data-cat="others">
-                            <div class="portfolio-wrapper">
-                                <div class="portfolio-hover">
-                                    <div class="image-caption"> <a href="src/img/gallery/img6.jpg" class="label magnefig bg-iit others" data-toggle="tooltip" data-placement="left" title="Zoom"><i class="fa fa-eye"></i></a></div><img src="src/img/gallery/img6.jpg" alt="" /></div>
+                <p><i class="fas fa-envelope"></i> Email : iitrms.iitr@gmail.com</p>
+            </div>
+            <div class="col-md-6 text-center">
+                    <img src="img/logo.png" width="340"><br><br>
+                    <li><a href="https://www.facebook.com/iitrms.in/"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/iitroorkeemotorsportsteam/"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/iitrms_iitr"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/iitrms/?hl=en"><i class="fab fa-instagram"></i></a></li>
+                </div>
+                <div class="col-md-3 social text-center">
+                        <p><a href="projects.html">Cars</a></li></p>
+                        <p><a href="index.html#team">Team</a></p>
+                        <p><a href="sponsor.html">Sponsors</a></p>
+                        <p><a href="#top">Back to Top</a></p>
+                </div>
+            <div class="col-md-12 copyright text-center">
+                    <p> &copy; Copyright 2018 |Team IIT Roorkee MotorSports | All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+    <!-- modal boxes of 2017 images -->
+    <div class="modal fade" id="20171" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg popup_window">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="row popup">
+                            <div class="col-md-12 popup_img">
+                                <img src="img/gallery/hullo-8.jpg" width="100%" height="auto"/>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer class="footer" id="contact">
-                                <div class="container-fluid">
-                                        <div class="row">
-                                                <div class="col-sm-9">
-                                <p class="footerDetail"><i class="fa fa-home footerDetailIcon"></i>Mechanical & Industrial Engineering Department, IIT Roorkee</p>
-                                <p class="footerDetail"><i class="fa fa-globe footerDetailIcon1"></i>247667 , Uttarakhand, India</p><p class="footerDetail"><i class="fa fa-mobile footerDetailIcon1" style="font-size: 2.2vw"></i>Mobile : +91-8650267812, +91-7060863864</p>
-                                <p class="footerDetail"><i class="fa fa-envelope footerDetailIcon1"></i>Email : iitrms.iitr@gmail.com</p>
+        <!-- 2nd img modal -->
+        <div class="modal fade" id="20172" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg popup_window">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="row popup">
+                            <div class="col-md-12 popup_img">
+                                <img src="img/gallery/img2017.jpg" width="100%" height="auto"/>
                             </div>
-                            <div class="col-sm-3">
-
-                                                </div>
-                                        </div>
-                        <div class="row">
-                                <div class="col-sm-9">
-                                        <p class="copyright">Copyright &#169; - 2017 Team IIT Roorkee MotorSports </p>
-                                </div>
-                                <div class="col-sm-3">
-                                        <!-- <div class="row">
-                                                <div class="col-sm-12 readMoreMainButton downloadBrochureButton navbarAnimate ">
-                                                                        <a href="about.html">DOWNLOAD BROCHURE</a>
-                                                                </div>
-                                        </div> -->
-                                        <div class="row">
-                                                                                <a href="https://www.facebook.com/iitrms.in/" target="_blank"><i class="fa fa-facebook footerSocialIcon" ></i></a>
-                                                                                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fiitroorkeemotorsportsteam%2F&h=ATM5BKop9CBbx8iKrXO6uXWOAZlYSC4XE9vXec2-DbFECfr5L7HynvBrMewSrBTqgRha1DC7OmjCUy3oQaD38k_dBM9g-k_w4xDA6I95nD4kBQ"  target="_blank"><i class="fa fa-linkedin footerSocialIcon"></i></a>
-                                                                                <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2Fiitrms_iitr&h=ATM8JDpGH7RfYerxvDzOZ73yD9u3PrhsmTLexZ6Dn7cWzUU459y2jU_fB0nSe9Zmv4XSXHQ4gX8XR6yuMNswhwvso5dNxbs8hn-IsY8mqSEJ8g"  target="_blank"><i class="fa fa-twitter  footerSocialIcon"></i></a>
-                                                                        <a href="https://www.instagram.com/iitrms/?hl=en" target="_blank"><i class="fa fa-instagram footerSocialIcon"></i>
-                                                        </div>
-                                </div>
                         </div>
-                                </div>
-                        </footer>          <script src="js/jquery-1.8.3.min.js"></script>
-            <script src="src/js/bootstrap.min.js"></script>
-            <script type="text/javascript" src="js/hover-dropdown.js"></script>
-            <script defer src="src/js/jquery.flexslider.js"></script>
-            <script type="text/javascript" src="assets/bxslider/jquery.bxslider.js"></script>
-            <script type="text/javascript" src="src/js/jquery.parallax-1.1.3.js"></script>
-            <script src="src/js/wow.min.js"></script>
-            <script src="assets/owlcarousel/owl.carousel.js"></script>
-            <script src="src/js/mixitup.js"></script>
-            <script src="src/js/jquery.easing.min.js"></script>
-            <script src="src/js/link-hover.js"></script>
-            <script src="src/js/common-scripts.js"></script>
-            <script src="src/js/revulation-slide.js"></script>
-            <script src="src/js/jquery.magnific-popup.js"></script>
-            <script type="text/javascript">
-                $('.image-caption a').tooltip();
-                $(function() {
-                    var filterList = {
-                        init: function() {
-                            $('#portfoliolist').mixitup({
-                                targetSelector: '.portfolio',
-                                filterSelector: '.filter',
-                                effects: ['fade'],
-                                easing: 'snap',
-                                onMixEnd: filterList.hoverEffect()
-                            });
-                        },
-                        hoverEffect: function() {
-                            $("[rel='tooltip']").tooltip();
-                            $('#portfoliolist .portfolio .portfolio-hover').hover(function() {
-                                $(this).find('.image-caption').slideDown(250);
-                            }, function() {
-                                $(this).find('.image-caption').slideUp(250);
-                            });
-                        }
-                    };
-                    filterList.init();
-                });
-                $(document).ready(function() {
-                    $('.magnefig').each(function() {
-                        $(this).magnificPopup({
-                            type: 'image',
-                            removalDelay: 300,
-                            mainClass: 'mfp-fade'
-                        })
-                    });
-                });
-                $(document).ready(function() {
-                    $('#autozoom').each(function() {
-                        $(this).magnificPopup({
-                            type: 'video',
-                            removalDelay: 300,
-                        })
-                    });
-                });
-            </script>
-            <script>
-                $(document).ready(function() {
-                    $("#owl-demo").owlCarousel({
-                        autoPlay: 3000,
-                        items: 4,
-                        itemsDesktop: [1199, 3],
-                        itemsDesktopSmall: [979, 3],
-                        stopOnHover: true,
-                    });
-                });
-                new WOW().init();
-            </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="20173" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg popup_window">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="row popup">
+                            <div class="col-md-12 popup_img">
+                                <img src="img/gallery/hullo-11.jpg" width="100%" height="auto"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 4nd img modal -->
+        <div class="modal fade" id="20174" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg popup_window">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="row popup">
+                            <div class="col-md-12 popup_img">
+                                    <img src="img/gallery/hullo-10.jpg" width="100%" height="auto"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="20175" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg popup_window">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="row popup">
+                            <div class="col-md-12 popup_img">
+                                <img src="img/gallery/hullo-4.jpg" width="100%" height="auto"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 6nd img modal -->
+        <div class="modal fade" id="20176" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg popup_window">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="row popup">
+                            <div class="col-md-12 popup_img">
+                                    <img src="img/gallery/hullo-5.jpg" width="100%" height="auto"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="20177" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg popup_window">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="row popup">
+                            <div class="col-md-12 popup_img">
+                                <img src="img/gallery/hullo-6.jpg" width="100%" height="auto"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 8nd img modal -->
+        <div class="modal fade" id="20178" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg popup_window">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="row popup">
+                            <div class="col-md-12 popup_img">
+                                    <img src="img/gallery/hullo-7.jpg" width="100%" height="auto"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+<!-- 2015 gallery modal -->
+<div class="modal fade" id="20151" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pic1.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="20152" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pic2.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="20153" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pic3.png" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="20154" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pic4.png" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="20155" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pic5.png" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="20156" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pic6.png" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="20157" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pic7.png" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="20158" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pic8.png" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="20159" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pic9.png" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="201510" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pic10.png" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="201511" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pic11.png" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="201512" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pic12.png" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="201513" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pic13.png" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="201514" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pic14.png" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- 2013 gallery -->
+<div class="modal fade" id="20131" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pc2.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="modal fade" id="20132" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pc4.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="modal fade" id="20133" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pc5.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- 2011 gallery -->
+<div class="modal fade" id="20111" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/img1.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="20112" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/img2.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="20113" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/img6.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="modal fade" id="20114" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/img4.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="20115" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/img7.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="20116" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/img8.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="20117" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/img9.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="20118" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/img10.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id=20119 tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/img11.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id=201110 tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/pic5.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- media gallery -->
+<div class="modal fade" id="media1" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/img12.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="media2" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/p1.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="media3" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/p2.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="media4" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/p4.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="media5" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/img5" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="media6" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/n1.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="media7" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg popup_window">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row popup">
+                    <div class="col-md-12 popup_img">
+                            <img src="img/gallery/img6.jpg" width="100%" height="auto"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script>$(window).enllax();</script>
+<script src="js/aos.js"></script>
+<script>
+        AOS.init({
+            easing: 'ease-in-out-sine',
+        });
+
+        // preloader
+$(document).ready(function() {
+    $('#preloader').fadeOut(5000);
+});
+        </script>
+
+</body>
 </html>

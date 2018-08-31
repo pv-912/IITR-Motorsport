@@ -1,0 +1,25 @@
+#heading{
+  color: white;
+  margin-top: 50px;
+  text-align: left;
+  text-decoration: underline;
+
+}
+#sponser_img{
+  height: 300px !important;
+  width: 400px !important;
+
+}
+#slider_2{
+  background-color: white;
+}
+.pageTitle{
+color: #fff;
+margin: 30px 0 3px;
+display: inline-block;
+font-size: 50px;
+}
+#about_us{
+  font-size: 20px;
+  color: white;
+}
