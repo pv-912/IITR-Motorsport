@@ -11,12 +11,43 @@ font-family: 'Ubuntu', sans-serif;*/
   z-index: 1000;
 } */
 
+.bronze > div > div > img {
+    height: 10rem;
+    padding-left: 20px;
+}
 .carousel-indicators{
   z-index: 1;
 }
 .container-fluid{
   padding-left: 0 !important;
   padding-right: 0 !important;
+}
+.gold-main-div, .bronze-main-div, .silver-main-div {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+}
+.gold-main-div >div>img {
+    height: 200px;
+    width: auto;
+    margin: 30px;
+}
+.silver-main-div > div > img {
+    height: 100px;
+    width: auto;
+    margin: 30px;
+}
+.bronze-main-div > div >img {
+    height: 150px;
+    width: auto;
+    margin: 30px;
+}
+.bronze-main-div > div {
+    width: 30%;
+    display: flex;
+    justify-content: center;
 }
 /* .loader{
   position: absolute;
@@ -736,18 +767,11 @@ img.profile_pic {
   padding-bottom: 50px;
   transition: all 200ms ease;
 }
-.sponsor img{
-  filter: grayscale(100%);
-}
 .sp1{
   padding-top: 0vh;
 }
 .sp2,.sp3,.sp4{
   padding-top: 12vh;
-}
-.sponsor img:hover{
-  filter: grayscale(0%);
-
 }
 .footer{
   width: 100vw;
@@ -1209,6 +1233,11 @@ clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 
 @media screen and (max-width:768px){
+    .bronze-main-div > div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
   .caption1{
     display: none;
     visibility: hidden;
